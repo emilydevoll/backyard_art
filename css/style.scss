@@ -1,0 +1,595 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+// @import 'jquery.mmenu';
+// @import 'jquery/mmenu.oncanvas';
+
+body { -webkit-font-smoothing: antialiased; }
+
+.background {
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 60px;
+	padding-bottom: 20px;
+	font-family: $header-font;
+	text-transform: uppercase;
+	text-shadow: 0 5px 1px rgba(0,0,0,.15);
+}
+
+h2 {
+	font-family: $header-font;
+}
+
+p {
+	font-family: $paragraph-font;
+	font-weight: 300;
+}
+
+header {
+	@include background-animation;
+	background-color: #fff;
+
+	.modernizr-slideshow li div { 
+		p {
+			padding-top: 10px;
+		}
+	}
+
+	h1 {
+		padding-bottom: 20px;
+	}
+
+	p {
+		width: 90%;
+	}
+
+	.nav-large {
+		display: none;
+	}
+}
+// .nav-small {
+// 	z-index: 5;
+// 	position: absolute;
+// }
+.nav-small {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 5;
+
+	.logo-wrapper {
+		height: 30px;
+		width: 30px;
+		padding: 10px;
+		background-color: #fff;
+		float: left;
+		margin: 10px;
+	}
+
+// 	#menu-button {
+// 	height: 50px;
+// 	width: 50px;
+// 	background-color: #000;
+// 	z-index: 5;
+// 	display: block;
+// }
+
+	.right {
+		@include search;
+		float: right;
+		padding: 10px 10px 0 0;
+
+		.searchbox-icon {
+			img {
+				height: 30px;
+				width: 30px;
+			}
+		}
+
+		#menu-button {
+			float: right;
+			height: 30px;
+			width: 30px;
+			display: block;
+			z-index: 5;
+
+			img {
+				height: 30px;
+				width: 30px;
+			}
+			// background: url ("../images/menu-blue.png") 0 0 no-repeat;
+			// background-size: contain;
+
+		}
+	}
+}
+
+main {
+	position: absolute;
+	top: 340px;
+
+	h2 {
+		font-family: $header-font;
+		font-size: 35px;
+		padding: 20px 0 0px 20px;
+		text-transform: uppercase;
+		text-shadow: 2px 3px 0px rgba(0,0,0,.15);
+		max-width: 400px;
+	}
+
+	h3 {
+		font-family: $header-font;
+		font-size: 50px;
+		color: #fff;
+		text-transform: uppercase;
+		text-shadow: 2px 5px 1px rgba(0,0,0,.15);
+		padding-left: 10px;
+		padding-bottom: 45px;
+	}
+
+	h4  {
+		font-family: $header-font;
+		color: #fff;
+		text-transform: uppercase;
+		text-shadow: 0 5px 1px rgba(0,0,0,.15);
+		font-size: 30px;
+		padding-left: 10px
+	}
+
+	p {
+		line-height: 20px;
+		font-size: 14px;
+		padding: 10px 20px 20px 20px;
+	}
+
+	.about-left {
+
+		h2 {
+			color: $light-blue;
+			padding-bottom: 10px;
+		}
+
+		a {
+		font-family: $header-font;
+		color: #000;
+		text-decoration: none;
+		border-bottom: 2px solid $light-blue;
+
+		&:hover, 
+		&:hover h2,
+		&:hover h3 {
+			border-bottom: none;
+			color: $light-blue;
+		}
+	}
+
+		.featured-artist1 {
+			height: 130px;
+			width: 100%;
+			max-width: 400px;
+			background: url(../images/so-long.jpg) 0 -100px no-repeat;
+			background-size: cover;
+			margin: 5px auto;
+			// padding: 10px;
+		}
+
+		.featured-artist2 {
+			height: 130px;
+			width: 100%;
+			max-width: 400px;
+			background: url(../images/emily.jpg) 0 -130px no-repeat;
+			background-size: cover;
+			margin: 5px auto;
+		}
+	}
+
+	.about-right {
+
+		h2 {
+			color: $light-blue;
+			padding-top: 40px;
+			padding-bottom: 10px;
+		}
+
+		a {
+		font-family: $header-font;
+		color: #000;
+		text-decoration: none;
+		border-bottom: 2px solid $light-blue;
+
+			&:hover, 
+			&:hover h2,
+			&:hover h3 {
+				border-bottom: none;
+				color: $light-blue;
+			}
+		}
+
+		.event1 {
+			height: 130px;
+			width: 100%;
+			background: url(../images/roger.jpg) 0 0 no-repeat;
+			background-size: cover;
+			margin: 5px auto;
+			max-width: 400px;
+		}
+
+		.event2 {
+			height: 130px;
+			width: 100%;
+			background: url(../images/artbash.png) 0 0 no-repeat;
+			background-size: cover;
+			margin: 5px auto;
+			max-width: 400px;
+		}
+	}
+}
+
+footer {
+	position: relative;
+	top: 550px;
+	// height: 50px;
+	background-color: $light-blue;
+	// padding-top: 10px;
+	// background: url(../images/oneblack.jpg) 0 0 no repeat;
+	// background-size: cover;
+	width: 100%;
+	.footer-wrapper {
+	background: url(../images/two.jpg) center -200px no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 60px;
+	padding-top: 10px;
+	// height: 
+
+	.logo-wrapper {
+		height: 50px;
+		width: 50px;
+		background-color: #fff;
+		margin: 0 auto;
+		
+
+	}
+}
+
+	
+	// z-index: 1;
+}
+
+
+ @media screen and (min-width: 660px) {
+
+ 	h1 {
+ 		font-size: 75px;
+ 	}
+
+ 	header {
+
+	 	.modernizr-slideshow li:nth-child(1) .background { 
+		  background-position: center -380px;
+		}
+		.modernizr-slideshow li:nth-child(2) .background { 
+			background-position: center -380px;
+		
+		}
+
+		.modernizr-slideshow li .background { 
+	  		height: 380px;
+	  	}
+
+	  	.modernizr-slideshow li div { 
+	 		top: 180px;
+
+	 		p {
+	 			padding-top: 20px;
+	 			width: 70%;
+	 			font-size: 18px;
+	 		}
+	 	}
+	}
+
+	main {
+		top: 400px;
+		width: 80
+
+		p {
+			width: 90%;
+			margin: 0 auto;
+			font-size: 15px;
+		}
+
+		h2 {
+			font-size: 40px;
+			padding-top: 5px;
+			padding-left: 10px;
+		}
+
+		.about-left {
+			margin: 0 auto;
+			width: 85%;
+			padding-bottom: 40px;
+			// max-width: 650px;
+			.featured-artist1 {
+				float: left;
+				width: 50%;
+				background-position: center -50px;
+				margin-bottom: 0;
+				// margin-top: 10px;
+				height: 150px;
+				max-width: 350px;
+			}
+
+			.featured-artist2 {
+				float: right;
+				width: 50%;
+				margin-bottom: 0;
+				// margin-top: 10px;
+				height: 150px;
+				background-position: 0 -100px;
+			}
+		}
+
+		.about-right {
+			margin: 0 auto;
+			width: 85%;
+			// padding-top: 30px;
+			// max-width: 600px;
+
+			h2 {
+				clear: both;
+			}
+
+			.event1 {
+				clear: both;
+				float: left;
+				width: 50%;
+				margin-top: 0;
+				height: 150px;
+				max-width: 350px;
+			}
+
+			.event2 {
+				float: right;
+				width: 50%;
+				margin-top: 0;
+				height: 150px;
+			
+			}
+		}
+	}
+
+	footer {
+		top: 330px;
+	}
+
+}
+
+@media screen and (min-width: 950px) {
+
+	.nav-small {
+		display: none;
+	}
+
+	h1 {
+		font-size: 100px;
+	  	padding-bottom: 60px;
+	}
+
+	header {
+		// @include background-animation;
+
+		.modernizr-slideshow li .background { 
+	  		height: 480px;
+	  	}
+
+	  	.modernizr-slideshow li div { 
+	 		 top: 250px;
+
+	 		 p {
+	 		 	padding-top: 40px;
+	 		 	width: 90%;
+	 		 	line-height: 25px;
+	 		 	font-size: 21px;
+	 		 }
+	 	}
+
+		.header {
+			position: absolute;
+			z-index: 1;
+			
+			h1 {
+				color: $light-blue;
+			}
+		}
+
+		p {
+			line-height: 40px;
+			width: 100%;
+			max-width: 900px;
+			padding-top: 30px;
+			font-size: 20px;
+		}
+
+		.nav-large {
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			width: 100%;
+
+			.logo-wrapper {
+				height: 30px;
+				width: 30px;
+				padding: 10px;
+				background-color: #fff;
+				float: left;
+				margin: 10px;
+			}
+
+			nav {
+				float: left;
+				text-transform: uppercase;
+				padding: 20px 5px;
+
+				a {
+					font-family: $header-font;
+					color: #fff;
+					text-decoration: none;
+					margin: 20px 10px;
+					font-size: 20px;
+					padding-top: 20px;
+
+					&:hover {
+						color: $light-blue;
+					}
+				}
+
+				#home {
+					border-bottom: 2px solid $light-blue;
+				}
+			}
+
+			.right {
+				float: right;
+
+				.field {
+					float: right;
+					display: flex;
+					position: realtive;
+					margin: 10px;
+					width: 75%;
+					flex-direction: row;
+					box-shadow: 0px 5px 2px rgba(0,0,0,.15);
+				}
+
+				.field>input[type=text],
+				.field>button {
+					display: block;
+					font: 16px $paragraph-font;
+					font-weight: 300;
+				}
+
+				.field>input[type=text] {
+					flex:1;
+					border:0.2em solid #fff;
+				}
+
+				.field>button {
+					background-color: $light-blue;
+					color: white;
+					border: none;
+
+					img {
+					  	height: 20px;
+					  	width: 20px;
+					}
+				}
+			}
+		}
+	}
+	 
+	main {
+	 	top: 490px;
+
+	 	h2 {
+	 		padding-left: 15px;
+	 		font-size: 39px;
+	 		padding-bottom: 60px;
+	 	}
+
+	 	p {
+	 		padding-left: 20px;
+	 		width: 90%;
+	 		// width: 50%;
+	 		margin: 0;
+	 	}
+
+	 	.about-left {
+	 		float: left;
+	 		width: 50%;	
+	 		padding: 5px;
+	 		box-sizing: border-box;
+
+	 		.featured-artist1 {
+	 			background-position: center -20px;
+	 		}
+
+	 		.featured-artist2 {
+	 			background-position: center -50px;
+	 		}
+	 	}
+
+	 	.about-right {
+	 		float: right;
+	 		margin: 0;
+	 		width: 50%;
+	 		padding: 5px;
+	 		box-sizing: border-box;
+
+	 		h2 {
+	 			padding-top: 10px;
+	 		}
+	 		// padding-top: 20px;
+	 	}
+
+	 	.featured-artist1 {
+	 		clear: both;
+	 		float: left;
+	 		width: 25%;
+	 		// background-position: center -20px;
+	 		margin-top: 10px;
+	 		height: 140px;
+	 	}
+
+	 	.featured-artist2 {
+	 		float: left;
+	 		width: 25%;
+	 		margin-top: 0;
+	 		background-position: center -50px;
+	 		height: 140px;
+	 		margin-top: 10px;
+	 	}
+
+	 	.event1 {
+	 		clear: none;
+	 		float: left;
+	 		width: 25%;
+	 		height: 140px;
+	 		margin-top: 10px;
+
+	 		h3 {
+	 			padding-bottom: 15px;
+	 		}
+	 	}
+
+	 	.event2 {
+	 		float: left;
+	 		width: 25%;
+	 		height: 140px;
+	 		margin-top: 10px;
+	 		h3 {
+	 			padding-bottom: 65px;
+	 		}
+	 	}
+	}
+
+	footer {
+		top: 130px;
+
+		// .footer-wrapper {}
+	}
+}
+
+// #menu-button {
+// 	height: 50px;
+// 	width: 50px;
+// 	// background-color: #000;
+// 	z-index: 5;
+// 	display: block;
+// }
+
+// .nav-small {
+// 	z-index: 5;
+// 	position: absolute;
+// }
