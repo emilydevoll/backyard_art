@@ -14,8 +14,8 @@ body { -webkit-font-smoothing: antialiased; }
 }
 
 h1 {
-	font-size: 60px;
-	// padding-bottom: 20px;
+	font-size: 50px;
+	padding-bottom: 20px;
 	font-family: $header-font;
 	text-transform: uppercase;
 	color: $light-blue;
@@ -64,8 +64,8 @@ header {
 	z-index: 5;
 
 	.logo-wrapper {
-		height: 30px;
-		width: 30px;
+		height: 20px;
+		width: 20px;
 		padding: 10px;
 		background-color: #fff;
 		float: left;
