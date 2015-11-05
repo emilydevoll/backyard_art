@@ -35,7 +35,7 @@
 	.modernizr-slideshow li div { 
 	  z-index: 1000;
 	  position: absolute;
-	  top: 130px;
+	  top: 100px;
 	  left: 0px;
 	  width: 100%;
 	  text-align: center;
@@ -50,7 +50,7 @@
 	.modernizr-slideshow li div h1 { 
 	  // font-size: 80px;
 	  // padding-bottom: 40px;
-	  line-height: 20px; 
+	  line-height: 60px;; 
 
 	  &:nth-of-type(odd) {
 	  	color: #53eae3;
@@ -76,7 +76,7 @@
 	.modernizr-slideshow li:nth-child(1) .background { 
 	  background-image: url(../images/oneblack.jpg);
 	  background-size: cover;
-	  background-position: center -180px;
+	  background-position: center -150px;
 	  animation-delay: .4s;
 	  // background-color: #666666;
 
@@ -87,7 +87,7 @@
 	.modernizr-slideshow li:nth-child(2) .background { 
 		background-image: url(../images/one1.jpg);
 		background-size: cover;
-		background-position: center -180px;
+		background-position: center -150px;
 		-webkit-animation-delay: 6s;
 		-moz-animation-delay: 6s;
 		-o-animation-delay: 6s;
@@ -120,7 +120,7 @@
 	.modernizr-slideshow li:nth-child(5) .background { 
 		background-image: url(../images/threeblack.jpg);
 		background-size: cover;
-		background-position: center -300px;
+		background-position: center -100px;
 		-webkit-animation-delay: 24s;
 		-moz-animation-delay: 24s;
 		-o-animation-delay: 24s;
@@ -131,7 +131,7 @@
 	.modernizr-slideshow li:nth-child(6) .background { 
 		background: url(../images/three.jpg);
 		background-size: cover;
-		background-position: center -300px;
+		background-position: center -100px;
 		-webkit-animation-delay: 30s;
 		-moz-animation-delay: 30s;
 		-o-animation-delay: 30s;
@@ -139,32 +139,10 @@
 		animation-delay: 30s; 
 	}
 
-	// .modernizr-slideshow li:nth-child(7) .background { 
-	// 	background: url(../images/fourblack.jpg);
-	// 	background-size: cover;
-	// 	background-position: center -10px;
-	// 	-webkit-animation-delay: 30s;
-	// 	-moz-animation-delay: 30s;
-	// 	-o-animation-delay: 30s;
-	// 	-ms-animation-delay: 30s;
-	// 	animation-delay: 36s; 
-	// }
-
-	// .modernizr-slideshow li:nth-child(8) .background { 
-	// 	background: url(../images/four.jpg);
-	// 	background-size: cover;
-	// 	background-position: center -10px;
-	// 	-webkit-animation-delay: 30s;
-	// 	-moz-animation-delay: 30s;
-	// 	-o-animation-delay: 30s;
-	// 	-ms-animation-delay: 30s;
-	// 	animation-delay: 42s; 
-	// }
-
 	.modernizr-slideshow li:nth-child(7) .background { 
 	  background-image: url(../images/oneblack.jpg);
 		background-size: cover;
-		background-position: center -380px;
+		background-position: center -150px;
 		-webkit-animation-delay: 30s;
 		-moz-animation-delay: 30s;
 		-o-animation-delay: 30s;

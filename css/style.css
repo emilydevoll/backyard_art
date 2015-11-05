@@ -52,7 +52,7 @@ header .header-background {
   background: url(../images/oneblack.jpg) 0 0 no-repeat;
   background-size: cover;
   width: 100%;
-  height: 180px; }
+  height: 220px; }
   header .header-background h1 {
     padding-top: 100px;
     text-align: center;
@@ -79,7 +79,7 @@ header .header-background {
   float: right;
   width: 75%; }
   .directory-aside .directory-navigation .artist-search {
-    width: 100%;
+    width: 90%;
     padding-bottom: 60px; }
     .directory-aside .directory-navigation .artist-search .field {
       float: right;
@@ -130,7 +130,7 @@ header .header-background {
     border: 2px solid transparent;
     cursor: pointer;
     margin: 6px;
-    padding: 8px;
+    padding: 10px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.15);
@@ -329,7 +329,6 @@ body {
 
 h1 {
   font-size: 60px;
-  padding-bottom: 20px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   color: #53eae3;
@@ -373,7 +372,7 @@ header {
   header .modernizr-slideshow li div {
     z-index: 1000;
     position: absolute;
-    top: 130px;
+    top: 100px;
     left: 0px;
     width: 100%;
     text-align: center;
@@ -384,7 +383,7 @@ header {
     -ms-animation: titleAnimation 36s linear infinite 0s;
     animation: titleAnimation 36s linear infinite 0s; }
   header .modernizr-slideshow li div h1 {
-    line-height: 20px; }
+    line-height: 60px; }
     header .modernizr-slideshow li div h1:nth-of-type(odd) {
       color: #53eae3; }
     header .modernizr-slideshow li div h1:nth-of-type(even) {
@@ -400,14 +399,14 @@ header {
   header .modernizr-slideshow li:nth-child(1) .background {
     background-image: url(../images/oneblack.jpg);
     background-size: cover;
-    background-position: center -180px;
+    background-position: center -150px;
     animation-delay: .4s; }
     header .modernizr-slideshow li:nth-child(1) .background h1 {
       color: #53eae3; }
   header .modernizr-slideshow li:nth-child(2) .background {
     background-image: url(../images/one1.jpg);
     background-size: cover;
-    background-position: center -180px;
+    background-position: center -150px;
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -434,7 +433,7 @@ header {
   header .modernizr-slideshow li:nth-child(5) .background {
     background-image: url(../images/threeblack.jpg);
     background-size: cover;
-    background-position: center -300px;
+    background-position: center -100px;
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
@@ -443,7 +442,7 @@ header {
   header .modernizr-slideshow li:nth-child(6) .background {
     background: url(../images/three.jpg);
     background-size: cover;
-    background-position: center -300px;
+    background-position: center -100px;
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
@@ -452,7 +451,7 @@ header {
   header .modernizr-slideshow li:nth-child(7) .background {
     background-image: url(../images/oneblack.jpg);
     background-size: cover;
-    background-position: center -380px;
+    background-position: center -150px;
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
@@ -643,10 +642,6 @@ header {
     opacity: 0; } }
   header .no-cssanimations .modernizr-slideshow li span {
     opacity: 1; }
-  header .modernizr-slideshow li div p {
-    padding-top: 10px; }
-  header h1 {
-    padding-bottom: 20px; }
   header p {
     width: 90%; }
   header .nav-large {
@@ -843,7 +838,6 @@ footer {
   header .modernizr-slideshow li div {
     top: 180px; }
     header .modernizr-slideshow li div p {
-      padding-top: 20px;
       width: 70%;
       font-size: 18px; }
 
@@ -902,12 +896,15 @@ footer {
     font-size: 100px;
     padding-bottom: 60px; }
 
+  header .modernizr-slideshow li:nth-child(5) .background {
+    background-position: center -300px; }
+  header .modernizr-slideshow li:nth-child(6) .background {
+    background-position: center -300px; }
   header .modernizr-slideshow li .background {
-    height: 480px; }
+    height: 530px; }
   header .modernizr-slideshow li div {
     top: 250px; }
     header .modernizr-slideshow li div p {
-      padding-top: 40px;
       width: 90%;
       line-height: 25px;
       font-size: 21px; }
@@ -920,7 +917,6 @@ footer {
     line-height: 40px;
     width: 100%;
     max-width: 900px;
-    padding-top: 30px;
     font-size: 20px; }
   header .nav-large {
     display: inline-block;
@@ -976,7 +972,7 @@ footer {
           width: 20px; }
 
   main {
-    top: 490px; }
+    top: 540px; }
     main h2 {
       padding-left: 15px;
       font-size: 39px;
