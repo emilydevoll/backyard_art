@@ -143,10 +143,10 @@
 	  background-image: url(../images/oneblack.jpg);
 		background-size: cover;
 		background-position: center -150px;
-		-webkit-animation-delay: 30s;
-		-moz-animation-delay: 30s;
-		-o-animation-delay: 30s;
-		-ms-animation-delay: 30s;
+		-webkit-animation-delay: 36s;
+		-moz-animation-delay: 36s;
+		-o-animation-delay: 36s;
+		-ms-animation-delay: 36s;
 		animation-delay: 36s;
 
 	  h1 {
@@ -253,10 +253,10 @@
 	// }
 
 	.modernizr-slideshow li:nth-child(7) div { 
-	  -webkit-animation-delay: 24s;
-	  -moz-animation-delay: 24s;
-	  -o-animation-delay: 24s;
-	  -ms-animation-delay: 24s;
+	  -webkit-animation-delay: 36s;
+	  -moz-animation-delay: 36s;
+	  -o-animation-delay: 36s;
+	  -ms-animation-delay: 36s;
 	  animation-delay: 36s; 
 
 	  h1 {
@@ -317,31 +317,39 @@
 	}
 	/* Animation for the title */
 	@-webkit-keyframes titleAnimation { 
-	  0% { opacity: 0 }
-	  8% { opacity: 1 }
+	  0% { opacity: 0;
+	       animation-timing-function: ease-in; }
+	  8% { opacity: 1;
+	       animation-timing-function: ease-out; }
 	  17% { opacity: 1 }
-	  19% { opacity: 0 }
+	   25% { opacity: 0 }
 	  100% { opacity: 0 }
 	}
 	@-moz-keyframes titleAnimation { 
-	  0% { opacity: 0 }
-	  8% { opacity: 1 }
+	  0% { opacity: 0;
+	       animation-timing-function: ease-in; }
+	  8% { opacity: 1;
+	       animation-timing-function: ease-out; }
 	  17% { opacity: 1 }
-	  19% { opacity: 0 }
+	   25% { opacity: 0 }
 	  100% { opacity: 0 }
 	}
 	@-o-keyframes titleAnimation { 
-	  0% { opacity: 0 }
-	  8% { opacity: 1 }
+	 0% { opacity: 0;
+	       animation-timing-function: ease-in; }
+	  8% { opacity: 1;
+	       animation-timing-function: ease-out; }
 	  17% { opacity: 1 }
-	  19% { opacity: 0 }
+	   25% { opacity: 0 }
 	  100% { opacity: 0 }
 	}
 	@-ms-keyframes titleAnimation { 
-	  0% { opacity: 0 }
-	  8% { opacity: 1 }
+	  0% { opacity: 0;
+	       animation-timing-function: ease-in; }
+	  8% { opacity: 1;
+	       animation-timing-function: ease-out; }
 	  17% { opacity: 1 }
-	  19% { opacity: 0 }
+	   25% { opacity: 0 }
 	  100% { opacity: 0 }
 	}
 	@keyframes titleAnimation { 
