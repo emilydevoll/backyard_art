@@ -1,0 +1,205 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Backyard Art</title>
+		<link href="css/jquery.mmenu.css" type="text/css" rel="stylesheet" />
+		<link href="css/jquery.mmenu.positioning.css" type="text/css" rel="stylesheet" />
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,300' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.mmenu.min.js" type="text/javascript"></script>
+		<script src="js/jquery.menu-aim.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="background">
+			<div class="nav-small">
+				<a href="index.html" class="logo-wrapper">
+					<div class="logo">
+					</div>
+				</a>
+				<div class="right">
+						<a href="#menu" id="menu-button"><img src="images/menu-blue.png"></a>
+
+					<form class="searchbox">
+						<input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+						<input type="submit" class="searchbox-submit" value="">
+						<span class="searchbox-icon"><img src="images/search-blue.png"></span>
+					</form>
+					
+				</div>
+			</div>
+			<header id="artist-page">
+			<div class="header-background">
+				<h1>Ramona Flowers</h1>
+			</div>
+			<div class="nav-large">
+				<a href="index.html" class="logo-wrapper">
+					<div class="logo">
+					</div>
+				</a>
+				<nav>
+					<a href="index.html" id="home">Home</a>
+					<a href="directory.html" id="artist-directory">Artist Directory</a>
+					<a href="events.html" id="events">Events</a>
+				</nav>
+				<div class="right">
+					<div class="field" id="searchform">
+						<input type="text" id="searchterm" placeholder="Search" />
+						<button type="button" id="search"><img src="images/search-white.png"></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="artist-info">
+			<div class="profile-pic-wrapper">
+				<div class="profile-pic"></div>
+			</div>
+			<div class="social-media">
+				<a href="emilydevollart@gmail.com" class="email"><img src="images/email.png"></a>
+				<a href="hfacebook.com/vigil.steven" class="facebook"><img src="images/facebook.png"></a>
+				<a href="instagram.com/stevenvigil/" class="instagram"><img src="images/instagram.png"></a>
+				<a href="twitter.com" class="twitter"><img src="images/twitter.png"></a>
+				<a href="stevenvigil.com" class="website"><img src="images/website.png"></a>
+			</div>
+			<!-- <div class="tools">
+				<div class="medium">
+					<h4>Medium:</h4>
+					<p>Ink - Mixed Media - Watercolors</p>
+				</div>
+				<div class="style">
+					<h4>Style:</h4>
+					<p>Style - Will - Go - Here</p>
+				</div>
+				<div class="interest">
+					<h4>Interested In:</h4>
+					<p>Collaborating - Teaching</p>
+				</div>
+			</div> -->
+			<div class="tools">
+				<!-- <div class="medium">
+					<h4>Medium:</h4> -->
+					<p><span>Medium: </span>Ink - Mixed Media - Watercolors</p>
+			<!-- 	</div>
+				<div class="style">
+					<h4>Style:</h4> -->
+					<p><span>Style: </span>Style - Will - Go - Here</p>
+		<!-- 		</div>
+				<div class="interest">
+					<h4>Interested In:</h4> -->
+					<p><span>Interested in: </span>Collaborating - Teaching</p>
+				<!-- </div> -->
+			</div>
+			<div class="bio">
+				<p>Ramona first started drawing in March 2013. She realized pretty quickly that she had a knack for it so she packed up all of her things and moved to Austin in hopes to absorb some of its creative vibes. She has recently started working with watercolors and eventually would like to learn to paint with oils and acrylics.</p>
+			</div>
+			<div class="border"></div>
+			<div class="border-circle"></div>
+		</section>
+		<section class="artowrk">
+			<div class="so-long group">
+					<a href="#">
+						<!-- <img src="images/monica.png"> -->
+						<div class="image"></div>
+						<h3>So Long, & Thanks For All the Fish</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+				<div class="rainbow group">
+					<a href="#">
+						<!-- <img src="images/devoll.png"> -->
+						<div class="image"></div>
+						<h3>Rainbow Tears</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+				<div class="salome group">
+					<a href="#">
+						<!-- <img src="images/so-long.jpg"> -->
+						<div class="image"></div>
+						<h3>Salome</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+				<div class="giant-heart group">
+					<a href="#">
+					<!-- <img src="images/jenny.png"> -->
+						<div class="image"></div>
+						<h3>With a Giant Heart</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+				<div class="mary-gold group">
+					<a href="#">
+						<div class="image"></div>
+						<h3>Mary Gold</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+				<div class="dont-run group">
+					<a href="#">
+						<div class="image"></div>
+						<h3>Whatever You Do, Don't Run</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+				<div class="monarch-queen group">
+					<a href="#">
+						<div class="image"></div>
+						<h3>The Monarch Queen</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+				<div class="beachmasters group">
+					<a href="#">
+						<div class="image"></div>
+						<h3>Beachmasters Revenge</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+				<div class="gift group">
+					<a href="#">
+						<div class="image"></div>
+						<h3>A Gift and a Curse</h3>
+						<h6>22" x 30"</h6>
+						<h5>$120</h5>
+					</a>
+				</div>
+		</section>
+
+
+
+
+
+
+		<nav id="menu">
+						<ul>
+							<li class="selected"><a href="index.html">Home</a></li>
+							<li><a href="directory.html">Artist Directory</a></li>
+							<li><a href="events.html">Events</a></li>
+						</ul>
+					</nav>
+	
+<script type="text/javascript">
+  $(document).ready(function() {
+     $("#menu").mmenu({
+        offCanvas: {
+           position  : "right", 
+           zposition : "back"       }
+     });
+  });
+</script>
+
+</body>
+</html>
