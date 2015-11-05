@@ -71,7 +71,7 @@ header .header-background {
   font-size: 14px; }
 .directory-aside .directory-icon-wrapper {
   float: left;
-  margin: 10px;
+  margin: 2%;
   width: 10%;
   padding-bottom: 10%;
   background-color: #666; }
@@ -302,7 +302,7 @@ footer .footer-wrapper {
   header .header-background {
     height: 220px; }
     header .header-background h1 {
-      font-size: 75px; }
+      font-size: 65px; }
 
   .directory-aside {
     padding: 5px; }
@@ -369,14 +369,41 @@ footer .footer-wrapper {
     .view-artists .matt {
       float: left; } }
 @media screen and (min-width: 950px) {
+  header .header-background {
+    height: 260px; }
+    header .header-background h1 {
+      padding-top: 120px;
+      font-size: 80px; }
+
   .directory-aside {
     float: left;
-    width: 20%; }
+    width: 28%;
+    padding-top: 20px; }
+    .directory-aside .directory-icon-wrapper {
+      width: 50%;
+      padding-bottom: 50%;
+      margin-top: 0; }
+    .directory-aside .directory-navigation {
+      width: 100%;
+      padding-bottom: 30px;
+      padding-left: 10px; }
+    .directory-aside .filter {
+      width: 100%; }
+      .directory-aside .filter #leftMenu,
+      .directory-aside .filter #rightMenu {
+        width: 100%; }
+    .directory-aside .sort h5 {
+      padding-top: 20px; }
 
   .view-artists {
-    clear: left;
+    clear: none;
     float: right;
-    width: 70%; } }
+    width: 70%;
+    padding-right: 1%;
+    padding-top: 20px; }
+    .view-artists .col-4 {
+      width: 32%;
+      margin-right: 2%; } }
 body {
   -webkit-font-smoothing: antialiased; }
 
