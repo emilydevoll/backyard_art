@@ -1,6 +1,9 @@
 @import 'reset';
 @import 'variables';
 @import 'mixins';
+@import 'directory';
+@import 'artist';
+@import 'events';
 // @import 'jquery.mmenu';
 // @import 'jquery/mmenu.oncanvas';
 
@@ -15,6 +18,7 @@ h1 {
 	padding-bottom: 20px;
 	font-family: $header-font;
 	text-transform: uppercase;
+	color: $light-blue;
 	text-shadow: 0 5px 1px rgba(0,0,0,.15);
 }
 
@@ -451,40 +455,41 @@ footer {
 			}
 
 			.right {
+				@include search-large;
 				float: right;
 
-				.field {
-					float: right;
-					display: flex;
-					position: realtive;
-					margin: 10px;
-					width: 75%;
-					flex-direction: row;
-					box-shadow: 0px 5px 2px rgba(0,0,0,.15);
-				}
+				// .field {
+				// 	float: right;
+				// 	display: flex;
+				// 	position: realtive;
+				// 	margin: 10px;
+				// 	width: 75%;
+				// 	flex-direction: row;
+				// 	box-shadow: 0px 5px 2px rgba(0,0,0,.15);
+				// }
 
-				.field>input[type=text],
-				.field>button {
-					display: block;
-					font: 16px $paragraph-font;
-					font-weight: 300;
-				}
+				// .field>input[type=text],
+				// .field>button {
+				// 	display: block;
+				// 	font: 16px $paragraph-font;
+				// 	font-weight: 300;
+				// }
 
-				.field>input[type=text] {
-					flex:1;
-					border:0.2em solid #fff;
-				}
+				// .field>input[type=text] {
+				// 	flex:1;
+				// 	border:0.2em solid #fff;
+				// }
 
-				.field>button {
-					background-color: $light-blue;
-					color: white;
-					border: none;
+				// .field>button {
+				// 	background-color: $light-blue;
+				// 	color: white;
+				// 	border: none;
 
-					img {
-					  	height: 20px;
-					  	width: 20px;
-					}
-				}
+				// 	img {
+				// 	  	height: 20px;
+				// 	  	width: 20px;
+				// 	}
+				// }
 			}
 		}
 	}

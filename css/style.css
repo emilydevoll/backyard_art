@@ -45,6 +45,272 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+header .header-background {
+  background: url(../images/oneblack.jpg) 0 0 no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 180px; }
+  header .header-background h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px; }
+  header .header-background p {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 20px;
+    font-weight: 300; }
+    header .header-background p span {
+      color: #53eae3; }
+
+.directory-aside h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px; }
+.directory-aside .directory-icon-wrapper {
+  float: left;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: #666; }
+.directory-aside .directory-navigation {
+  float: right;
+  width: 75%; }
+  .directory-aside .directory-navigation .artist-search {
+    width: 100%;
+    padding-bottom: 60px; }
+    .directory-aside .directory-navigation .artist-search .field {
+      float: right;
+      display: flex;
+      position: realtive;
+      margin: 10px;
+      width: 75%;
+      flex-direction: row;
+      box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.15); }
+    .directory-aside .directory-navigation .artist-search .field > input[type=text],
+    .directory-aside .directory-navigation .artist-search .field > button {
+      display: block;
+      font: 16px "Poppins", sans-serif;
+      font-weight: 300; }
+    .directory-aside .directory-navigation .artist-search .field > input[type=text] {
+      flex: 1;
+      border: 0.2em solid #fff; }
+    .directory-aside .directory-navigation .artist-search .field > button {
+      background-color: #53eae3;
+      color: white;
+      border: none; }
+      .directory-aside .directory-navigation .artist-search .field > button img {
+        height: 20px;
+        width: 20px; }
+    .directory-aside .directory-navigation .artist-search .field > button {
+      background-color: #5a56ef;
+      color: white; }
+.directory-aside .filter {
+  padding: 10px;
+  clear: both; }
+  .directory-aside .filter #leftMenu {
+    float: left; }
+  .directory-aside .filter #rightMenu {
+    float: right; }
+  .directory-aside .filter #leftMenu,
+  .directory-aside .filter #rightMenu {
+    width: 50%;
+    min-width: 150px; }
+  .directory-aside .filter #leftMenu > details > summary,
+  .directory-aside .filter #rightMenu > details > summary {
+    cursor: pointer;
+    margin: 6px;
+    padding: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.15);
+    vertical-align: text-top; }
+  .directory-aside .filter #leftMenu > details > summary:hover,
+  .directory-aside .filter #rightMenu > details > summary:hover {
+    border: 2px solid #5a56ef; }
+  .directory-aside .filter #leftMenu > details > summary::-webkit-details-marker,
+  .directory-aside .filter #rightMenu > details > summary::-webkit-details-marker {
+    color: #5a56ef; }
+  .directory-aside .filter #leftMenu > details > summary:hover ::-webkit-details-marker {
+    color: #fff; }
+  .directory-aside .filter #leftMenu > details > a,
+  .directory-aside .filter #rightMenu > details > a {
+    font-family: "Poppins", sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    margin: 0px 6px 0px 18px;
+    padding: 4px;
+    background: #fff;
+    border-bottom: 1px solid #5a56ef; }
+  .directory-aside .filter #leftMenu > details > a:hover,
+  .directory-aside .filter #rightMenu > details > a:hover {
+    background: #DFEFFF;
+    font-weight: 400; }
+  .directory-aside .filter #leftMenu > details > a:before,
+  .directory-aside .filter #leftMenu > details > a:before {
+    content: "- "; }
+.directory-aside .sort {
+  clear: both;
+  padding: 30px 10px 10px 10px; }
+  .directory-aside .sort h4 {
+    font-family: "Oswald", sans-serif;
+    color: #5a56ef;
+    font-size: 20px;
+    padding-top: 10px; }
+    .directory-aside .sort h4 a {
+      color: #5a56ef;
+      text-decoration: none; }
+    .directory-aside .sort h4 a:hover {
+      color: #000; }
+  .directory-aside .sort h5 {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    padding-top: 20px; }
+    .directory-aside .sort h5 a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 2px solid #5a56ef; }
+
+.view-artists {
+  padding-top: 30px; }
+  .view-artists a {
+    text-decoration: none; }
+  .view-artists h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 0 30px 0; }
+  .view-artists .col-4 {
+    width: 49%; }
+  .view-artists .monica {
+    float: left;
+    overflow: hidden; }
+    .view-artists .monica .image {
+      background: url(../images/monica2.png) 0 0 no-repeat;
+      background-size: cover;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .emily {
+    float: right; }
+    .view-artists .emily .image {
+      background: url(../images/devoll.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .ramona {
+    clear: both;
+    float: left; }
+    .view-artists .ramona .image {
+      background: url(../images/so-long.jpg) 0 0 no-repeat;
+      background-size: cover;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .jenny {
+    float: right; }
+    .view-artists .jenny .image {
+      background: url(../images/jenny.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .brooke {
+    clear: both;
+    float: left; }
+    .view-artists .brooke .image {
+      background: url(../images/brooke.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .ryan {
+    float: right; }
+    .view-artists .ryan .image {
+      background: url(../images/ryan.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .rudy {
+    clear: both;
+    float: left; }
+    .view-artists .rudy .image {
+      background: url(../images/rudy.png) 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .lauren {
+    float: right; }
+    .view-artists .lauren .image {
+      background: url(../images/lauren.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .david {
+    clear: both;
+    float: left; }
+    .view-artists .david .image {
+      background: url(../images/david.png) 0 0 no-repeat;
+      background-size: cover;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .dane {
+    float: right; }
+    .view-artists .dane .image {
+      background: url(../images/dane.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .dan {
+    clear: both;
+    float: left; }
+    .view-artists .dan .image {
+      background: url(../images/dan.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+  .view-artists .matt {
+    float: right; }
+    .view-artists .matt .image {
+      background: url(../images/matt.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 100%; }
+
+footer .footer-wrapper {
+  display: none; }
+
+@media screen and (min-width: 660px) {
+  header .header-background {
+    height: 220px; }
+    header .header-background h1 {
+      font-size: 75px; }
+
+  .directory-aside {
+    padding: 5px; }
+    .directory-aside .directory-icon-wrapper {
+      height: 110px;
+      width: 110px; }
+    .directory-aside .filter {
+      padding-top: 0;
+      clear: none;
+      float: right;
+      width: 78%; }
+    .directory-aside .sort h4 {
+      float: left;
+      font-size: 30px; }
+    .directory-aside .sort h5 {
+      float: right;
+      font-size: 25px;
+      padding-top: 10px; }
+
+  .view-artists {
+    clear: both; }
+    .view-artists .col-4 {
+      width: 32%; }
+    .view-artists .emily {
+      float: left; }
+    .view-artists .ramona {
+      clear: none;
+      float: right; } }
 body {
   -webkit-font-smoothing: antialiased; }
 
@@ -56,6 +322,7 @@ h1 {
   padding-bottom: 20px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: #53eae3;
   text-shadow: 0 5px 1px rgba(0, 0, 0, 0.15); }
 
 h2 {
@@ -682,7 +949,7 @@ footer {
         margin: 10px;
         width: 75%;
         flex-direction: row;
-        box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.15); }
+        box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.15); }
       header .nav-large .right .field > input[type=text],
       header .nav-large .right .field > button {
         display: block;

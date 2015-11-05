@@ -1,0 +1,433 @@
+header {
+	.header-background {
+		background: url(../images/oneblack.jpg) 0 0 no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 180px;
+
+		h1 {
+			padding-top: 100px;
+			text-align: center;
+			font-size: 50px;
+		}
+
+		p {
+		  	color: #fff;
+		  	// width: 75%;
+		  	text-align: center;
+		  	margin: 0 auto;
+		  	line-height: 20px;
+		  	font-weight: 300;
+
+		  	span {
+		  		color: $light-blue;
+		  	}
+		}
+	}
+}
+
+.directory-aside {
+	h6 {
+		font-family: $paragraph-font;
+		font-size: 14px;
+	}
+
+	.directory-icon-wrapper {
+		float: left;
+		margin: 10px;
+		height: 50px;
+		width: 50px;
+		background-color: #666;
+
+	}
+
+	.directory-navigation {
+		float: right;
+		width: 75%;
+
+		
+
+		.artist-search {
+			width: 100%;
+			@include search-large;
+			padding-bottom: 60px;
+
+			// .field {
+			// 	border: 1px solid #000;
+			// }
+
+			.field>button {
+					background-color: $purple;
+					color: white;
+			}
+		}
+	}
+
+	.filter {
+		padding: 10px;
+		clear: both;
+
+		#leftMenu {
+			float: left;
+		}
+
+		#rightMenu {
+			float: right;
+		}
+
+		#leftMenu,
+		#rightMenu {
+			width: 50%;
+			min-width: 150px;
+		}
+		#leftMenu > details,
+		#rightMenu > details {
+			// height: 30px;
+			// width: 30px;
+		    
+		}
+		#leftMenu > details > summary,
+		#rightMenu > details > summary{
+			cursor:pointer;
+			// background: #fff;
+			margin: 6px;
+			// height: 30px;
+			padding: 8px;
+			font-family: $paragraph-font;
+			font-weight: 500;
+			box-shadow: 3px 3px 1px rgba(0,0,0,.15);
+			vertical-align: text-top;
+		}
+
+		// #leftMenu > details > summary > span,
+		// #rightMenu > details > summary > span {
+		// 		padding-bottom: 10px;
+		// 	}
+
+		#leftMenu > details > summary:hover,
+		#rightMenu > details > summary:hover {
+			border: 2px solid $purple;
+			// color: #fff;
+		}
+		
+		#leftMenu > details > summary::-webkit-details-marker,
+		#rightMenu > details > summary::-webkit-details-marker {
+			color: $purple;
+			// color: #fff;
+			// padding: 10px;
+			// background-color: $purple;
+
+			// display: none;
+		}
+
+		#leftMenu > details > summary:hover ::-webkit-details-marker {
+			color: #fff;
+		}
+
+		#leftMenu > details > a,
+		#rightMenu > details > a {
+			font-family: $paragraph-font;
+			display: block;
+			text-decoration: none;
+			color: #000;
+			font-size: 13px;
+			margin: 0px 6px 0px 18px;
+			padding: 4px;
+			background: #fff;
+			border-bottom: 1px solid $purple;
+		}
+		
+		#leftMenu > details > a:hover,
+		#rightMenu > details > a:hover {
+			background: #DFEFFF;
+			font-weight: 400;
+		}
+		
+		#leftMenu > details > a:before,
+		#leftMenu > details > a:before {
+			content: "- ";
+		}
+	}
+
+	.sort {
+		clear: both;
+		padding: 30px 10px 10px 10px;
+
+		h4 {
+			font-family: $header-font;
+			color: $purple;
+			font-size: 20px;
+			padding-top: 10px;
+
+			a {
+				color: $purple;
+				text-decoration: none;
+			}
+
+			a:hover {
+				// border-bottom: 2px solid $purple;
+				color: #000;
+			}
+		}
+
+		h5 {
+			font-family: $header-font;
+			font-size: 20px;
+			padding-top: 20px;
+
+			a {
+				color: #000;
+				text-decoration: none;
+				border-bottom: 2px solid $purple;
+			}
+		}
+	}
+}
+
+.view-artists {
+	padding-top: 30px;
+
+	a {
+		text-decoration: none;
+	}
+
+	h3 {
+		font-family: $paragraph-font;
+		font-size: 16px;
+		color: #000;
+		text-decoration: none;
+		padding: 10px 0 30px 0;
+	}
+
+	.col-4 {
+		width: 49%;
+		// @include grid(6);
+
+	}
+
+	.monica {
+		float: left;
+		// width: 49%;
+		// margin: 2px;
+		overflow: hidden;
+
+		.image {
+			background: url(../images/monica2.png) 0 0 no-repeat;
+			background-size: cover;
+			width: 100%;
+			padding-bottom: 100%;
+
+		}
+	}
+
+	.emily {
+		float: right;
+		// width: 49%;
+
+		.image {
+			background: url(../images/devoll.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.ramona {
+		clear: both;
+		float: left;
+		// width: 49%;
+
+		.image {
+			background: url(../images/so-long.jpg) 0 0 no-repeat;
+			background-size: cover;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.jenny {
+		float: right;
+		// width: 49%;
+
+		.image {
+			background: url(../images/jenny.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.brooke {
+		clear: both;
+		float: left;
+		// width: 49%;
+
+		.image {
+			background: url(../images/brooke.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.ryan {
+		float: right;
+		// width: 49%;
+
+		.image {
+			background: url(../images/ryan.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.rudy {
+		clear: both;
+		float: left;
+		// width: 49%;
+
+		.image {
+			background: url(../images/rudy.png) 00 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.lauren {
+		float: right;
+		// width: 49%;
+
+		.image {
+			background: url(../images/lauren.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.david {
+		clear: both;
+		float: left;
+		// width: 49%;
+
+		.image {
+			background: url(../images/david.png) 0 0 no-repeat;
+			background-size: cover;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.dane {
+		float: right;
+		// width: 49%;
+
+		.image {
+			background: url(../images/dane.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.dan {
+		clear: both;
+		float: left;
+		// width: 49%;
+
+		.image {
+			background: url(../images/dan.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+
+	.matt {
+		float: right;
+		// width: 49%;
+
+		.image {
+			background: url(../images/matt.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+}
+
+
+footer {
+
+
+	.footer-wrapper {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 660px) {
+	
+	header {
+		
+		.header-background {
+			height: 220px;
+
+			h1 {
+				font-size: 75px;
+			}
+		}
+	}
+
+	.directory-aside {
+		padding: 5px;
+
+		.directory-icon-wrapper {
+			height: 110px;
+			width: 110px;
+		}
+
+		.filter {
+			padding-top: 0;
+			clear: none;
+			float: right;
+			width: 78%;
+		}
+
+		.sort {
+			// padding-left: 20px;
+
+			h4 {
+				float: left;
+				font-size: 30px;
+			}
+
+			h5 {
+				// width: 15%;
+				float: right;
+				font-size: 25px;
+				padding-top: 10px;
+			}
+
+		}
+
+	}
+
+	.view-artists {
+		clear: both;
+
+		.col-4 {
+			width: 32%;
+		}
+
+		.emily {
+			float: left;
+		}
+
+		.ramona {
+			clear: none;
+			float: right;
+		}
+	}
+}
