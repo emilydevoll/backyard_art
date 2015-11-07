@@ -43,30 +43,6 @@
 				font-size: 20px;
 			}
 		}
-
-		// .medium {
-
-		// }
-
-		// .style {
-		// 	clear: both;
-		// }
-
-		// .interest {
-		// 	clear: both;
-		// }
-
-		
-		// h4 {
-		// 	float: left;
-		// 	font-family: $header-font;
-		// 	font-size: 20px;
-		// }
-
-		// p {
-		// 	float: left;
-		// 	vertical-align: middle;
-		// }
 	}
 
 	.bio {
@@ -74,9 +50,8 @@
 		p {
 			padding-top: 20px;
 			line-height: 20px;
-			padding: 5px 5px 20px 5px;
+			padding: 5px 5px 40px 5px;
 		}
-		// clear: both;
 	}
 
 	.border-circle {
@@ -93,4 +68,144 @@
 		border-bottom: 3px solid black;
 
 	}
+}
+
+.artwork {
+	padding-top: 20px;
+
+	.group {
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 10px;
+		padding-top: 10px;
+
+		a {
+			font-family: $paragraph-font;
+			text-decoration: none;
+			color: #000;
+		}
+
+		h3 {
+			font-size: 20px;
+			font-family: $header-font;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			// float: left;
+		}
+
+		h5 {
+			float: right;
+			font-weight: 500;
+			padding-bottom: 40px;
+			font-size: 18px;
+		}
+
+		h6 {
+			float: left;
+		}
+
+	}
+
+	.so-long {
+
+		.image {
+			background: url(../images/so-long.jpg) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			margin-bottom: -90px;
+		}
+	}
+
+	.rainbow {
+
+		.image {
+			background: url(../images/rainbow-tears.png) 45px 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			clear: right;
+		}
+	}
+
+	.salome {
+
+		.image {
+			background: url(../images/salome1.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			clear: right;
+		}
+	}
+
+	.giant-heart {
+
+		.image {
+			background: url(../images/with-a-giant-heart.png) 45px 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			clear: right;
+		}
+	}
+
+	.mary-gold {
+
+		.image {
+			background: url(../images/mary-gold.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			clear: right;
+		}
+	}
+
+	.dont-run {
+
+		.image {
+			background: url(../images/dont-run.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			clear: right;
+			margin-bottom: -95px;
+		}
+	}
+
+	.monarch-queen {
+
+		.image {
+			background: url(../images/monarch-queen.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			clear: right;
+			margin-bottom: -5px;
+		}
+	}
+
+	.beachmasters {
+
+		.image {
+			background: url(../images/beachmasters-revenge.png) 55px 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			clear: right;
+		}
+	}
+
+	.gift {
+
+		.image {
+			background: url(../images/gift-and-curse.png) 0 0 no-repeat;
+			background-size: contain;
+			width: 100%;
+			padding-bottom: 100%;
+			clear: right;
+			margin-bottom: -95px;
+		}
+	}
+
 }

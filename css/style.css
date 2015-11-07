@@ -435,7 +435,7 @@ footer .footer-wrapper {
 .artist-info .bio p {
   padding-top: 20px;
   line-height: 20px;
-  padding: 5px 5px 20px 5px; }
+  padding: 5px 5px 40px 5px; }
 .artist-info .border-circle {
   height: 20px;
   width: 20px;
@@ -446,6 +446,87 @@ footer .footer-wrapper {
   margin-top: -14px; }
 .artist-info .border {
   border-bottom: 3px solid black; }
+
+.artwork {
+  padding-top: 20px; }
+  .artwork .group {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px; }
+    .artwork .group a {
+      font-family: "Poppins", sans-serif;
+      text-decoration: none;
+      color: #000; }
+    .artwork .group h3 {
+      font-size: 20px;
+      font-family: "Oswald", sans-serif;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+    .artwork .group h5 {
+      float: right;
+      font-weight: 500;
+      padding-bottom: 40px;
+      font-size: 18px; }
+    .artwork .group h6 {
+      float: left; }
+  .artwork .so-long .image {
+    background: url(../images/so-long.jpg) 0 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: -90px; }
+  .artwork .rainbow .image {
+    background: url(../images/rainbow-tears.png) 45px 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right; }
+  .artwork .salome .image {
+    background: url(../images/salome1.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right; }
+  .artwork .giant-heart .image {
+    background: url(../images/with-a-giant-heart.png) 45px 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right; }
+  .artwork .mary-gold .image {
+    background: url(../images/mary-gold.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right; }
+  .artwork .dont-run .image {
+    background: url(../images/dont-run.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right;
+    margin-bottom: -95px; }
+  .artwork .monarch-queen .image {
+    background: url(../images/monarch-queen.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right;
+    margin-bottom: -5px; }
+  .artwork .beachmasters .image {
+    background: url(../images/beachmasters-revenge.png) 55px 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right; }
+  .artwork .gift .image {
+    background: url(../images/gift-and-curse.png) 0 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right;
+    margin-bottom: -95px; }
 
 body {
   -webkit-font-smoothing: antialiased; }
