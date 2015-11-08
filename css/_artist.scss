@@ -1,9 +1,17 @@
+#artist-page  {
+
+	h1 {
+		padding-top: 80px;
+	}
+}
+
 .artist-info {
 	.profile-pic-wrapper {
 		width: 60%;
 		margin: 0 auto;
 		margin-top: -50px;
 		padding-bottom: 10px;
+		max-width: 300px;
 
 		.profile-pic {
 			background: url(../images/profile-pic.png) 0 0 no-repeat;
@@ -14,9 +22,8 @@
 	}
 
 	.social-media {
+		max-width: 400px;
 		margin: 0 auto;
-		// width: 50%;
-		// padding-left: ;
 
 		.email, .facebook, .instagram, .twitter, .website {
 			width: 100%;
@@ -66,7 +73,6 @@
 
 	.border {
 		border-bottom: 3px solid black;
-
 	}
 }
 
@@ -90,7 +96,6 @@
 			font-family: $header-font;
 			padding-top: 5px;
 			padding-bottom: 5px;
-			// float: left;
 		}
 
 		h5 {
@@ -102,8 +107,8 @@
 
 		h6 {
 			float: left;
+			font-size: 16px;
 		}
-
 	}
 
 	.so-long {
@@ -113,14 +118,14 @@
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
-			margin-bottom: -90px;
+			margin-bottom: -24%;
 		}
 	}
 
 	.rainbow {
 
 		.image {
-			background: url(../images/rainbow-tears.png) 45px 0 no-repeat;
+			background: url(../images/rainbow-tears.png) 40px 0 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -142,7 +147,7 @@
 	.giant-heart {
 
 		.image {
-			background: url(../images/with-a-giant-heart.png) 45px 0 no-repeat;
+			background: url(../images/with-a-giant-heart.png) 40px 0 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -169,7 +174,7 @@
 			width: 100%;
 			padding-bottom: 100%;
 			clear: right;
-			margin-bottom: -95px;
+			margin-bottom: -26%;
 		}
 	}
 
@@ -177,7 +182,7 @@
 
 		.image {
 			background: url(../images/monarch-queen.png) 0 0 no-repeat;
-			background-size: contain;
+			background-size: cover;
 			width: 100%;
 			padding-bottom: 100%;
 			clear: right;
@@ -188,7 +193,7 @@
 	.beachmasters {
 
 		.image {
-			background: url(../images/beachmasters-revenge.png) 55px 0 no-repeat;
+			background: url(../images/beachmasters-revenge.png) 50px 0 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -204,8 +209,266 @@
 			width: 100%;
 			padding-bottom: 100%;
 			clear: right;
-			margin-bottom: -95px;
+			margin-bottom: -26%;
+		}
+	}
+}
+
+@media screen and (min-width: 663px) {
+
+	#artist-page {
+		h1 {
+			padding-top: 90px;
+			padding-left: 190px;
+		}
+	}
+	
+	.artist-info {
+		margin: 0 auto;
+
+		.profile-pic-wrapper {
+			width: 35%;
+			margin-top: -70px;
+			float: left;
+			padding-left: 3%;
+			max-width: 300px;
+
+			.profile-pic {
+				width: 100%;
+				padding-bottom: 100%;
+			}
+		}
+
+		.social-media {
+			max-width: 430px;
+			padding-top: 30px;
+			padding-right: 2%;
+			float: left;
+			width: 60%;
+			box-sizing: border-box;
+			padding-left: 2%;
+		}
+
+		.tools {
+			padding-top: 10px;
+			clear: both;
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.bio {
+			width: 80%;
+			margin: 0 auto;
+
+			p {
+				width: 103%;
+			}
 		}
 	}
 
+	.artwork {
+		padding: 20px;
+		box-sizing: border-box;
+
+		.group {
+			width: 31%;
+
+			h3 {
+				font-size: 18px;
+			}
+
+			h5 {
+				font-size: 16px;
+			}
+
+			h6 {
+				font-size: 15px;
+			}
+		}
+
+		.so-long {
+			float: left;
+
+			h3 {
+				width: 125%;
+			}
+
+			h5 {
+				margin-right: -30%;
+			}
+
+			.image {
+				width: 132%;
+				padding-bottom: 110%;
+				margin-bottom: -10%;
+			}
+		}
+
+		.rainbow {
+			float: left;
+			margin-left: 7%;
+
+			h3 {
+				margin-left: 18%;
+			}
+
+			h6 {
+				margin-left: 18%;
+			}
+
+			h5 {
+				margin-right: 10%;
+			}
+
+			.image {
+				background-position: 70% 0;
+			}
+		}
+
+		.salome {
+			float: left;
+		}
+
+		.giant-heart {
+			clear: left;
+			float: left;
+
+			h5 {
+				margin-right: 22%;
+			}
+
+			.image {
+				background-position: 0 0;
+			}
+		}
+
+		.mary-gold {
+			float: left;
+			margin-left: -5%;
+		}
+
+		.dont-run {
+			float: left;
+			margin-left: 2%;
+
+			h5 {
+				margin-right: -32%;
+			}
+
+			.image {
+				width: 132%;
+				padding-bottom: 140%;
+				margin-bottom: -40%;
+			}
+		}
+
+		.monarch-queen {
+			clear: left;
+			float: left;
+
+			.image {
+				margin-bottom: 0;
+			}
+		}
+
+		.gift {
+			float: left;
+			margin-left: 2%;
+
+			h5 {
+				margin-right: -35%;
+			}
+
+			.image {
+				background-position: 5px 0;
+				width: 135%;
+				padding-bottom: 130%;
+				margin-bottom: -30%;
+			}
+		}
+
+		.beachmasters {
+			float: left;
+			margin-left: 5%;
+
+			h3 {
+				margin-left: 25%;
+			}
+
+			h6 {
+				margin-left: 25%;
+			}
+
+			.image {
+				background-position: 90% 0;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 950px) {
+
+	#artist-page {
+
+		h1 {
+			padding-top: 130px;
+			padding-left: 310px;
+		}
+
+		.nav-large {
+
+			nav {
+
+				#home {
+					border: none;
+				}
+
+				#artist-directory {
+					border-bottom: 2px solid $light-blue;
+				}
+			}
+		}
+	}
+
+	.artist-info {
+		max-width: 980px;
+		// margin: 0 auto;
+
+		.profile-pic-wrapper {
+			width: 30%;
+			margin-top: -150px;
+			// float: left;
+			// padding-left: 3%;
+
+			// .profile-pic {
+			// 	width: 100%;
+			// 	padding-bottom: 100%;
+			// }
+		}
+
+		.tools {
+			margin-top: -20%;
+		}
+	
+		.social-media {
+			width: 42%;
+			box-sizing: border-box;
+			padding-left: 5%;
+
+			.email, .facebook, .instagram, .twitter, .website {
+
+				img {
+					padding-bottom: 0;
+				}
+			}
+
+		}
+	}
+
+
+
+	.artwork {
+		max-width: 980px;
+		margin: 0 auto;
+	}
 }

@@ -530,6 +530,22 @@ footer {
 			}
 		}
 	}
+
+	#directory {
+		.nav-large {
+
+			nav {
+
+				#home {
+					border: none;
+				}
+
+				#artist-directory {
+					border-bottom: 2px solid $light-blue;
+				}
+			}
+		}
+	}
 	.directory-aside {
 		float: left;
 		width: 28%;
