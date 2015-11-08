@@ -295,9 +295,6 @@ header .header-background {
       width: 100%;
       padding-bottom: 100%; }
 
-footer .footer-wrapper {
-  display: none; }
-
 @media screen and (min-width: 660px) {
   header .header-background {
     height: 220px; }
@@ -426,6 +423,8 @@ footer .footer-wrapper {
 .artist-info .social-media {
   max-width: 400px;
   margin: 0 auto; }
+  .artist-info .social-media a {
+    text-decoration: none; }
   .artist-info .social-media .email, .artist-info .social-media .facebook, .artist-info .social-media .instagram, .artist-info .social-media .twitter, .artist-info .social-media .website {
     width: 100%; }
     .artist-info .social-media .email img, .artist-info .social-media .facebook img, .artist-info .social-media .instagram img, .artist-info .social-media .twitter img, .artist-info .social-media .website img {
@@ -437,15 +436,16 @@ footer .footer-wrapper {
 .artist-info .tools {
   margin-top: -35px; }
   .artist-info .tools p {
-    padding-bottom: 10px;
-    padding-left: 5px; }
+    padding-bottom: 15px;
+    padding-left: 5px;
+    line-height: 20px; }
     .artist-info .tools p span {
+      margin-right: 5px;
       font-family: "Oswald", sans-serif;
       font-size: 20px; }
 .artist-info .bio p {
-  padding-top: 20px;
   line-height: 20px;
-  padding: 5px 5px 40px 5px; }
+  padding: 15px 5px 40px 5px; }
 .artist-info .border-circle {
   height: 20px;
   width: 20px;
@@ -488,7 +488,7 @@ footer .footer-wrapper {
     padding-bottom: 100%;
     margin-bottom: -24%; }
   .artwork .rainbow .image {
-    background: url(../images/rainbow-tears.png) 40px 0 no-repeat;
+    background: url(../images/rainbow-tears.png) 52% 0 no-repeat;
     background-size: contain;
     width: 100%;
     padding-bottom: 100%;
@@ -500,7 +500,7 @@ footer .footer-wrapper {
     padding-bottom: 100%;
     clear: right; }
   .artwork .giant-heart .image {
-    background: url(../images/with-a-giant-heart.png) 40px 0 no-repeat;
+    background: url(../images/with-a-giant-heart.png) 50% 0 no-repeat;
     background-size: contain;
     width: 100%;
     padding-bottom: 100%;
@@ -525,12 +525,6 @@ footer .footer-wrapper {
     padding-bottom: 100%;
     clear: right;
     margin-bottom: -5px; }
-  .artwork .beachmasters .image {
-    background: url(../images/beachmasters-revenge.png) 50px 0 no-repeat;
-    background-size: contain;
-    width: 100%;
-    padding-bottom: 100%;
-    clear: right; }
   .artwork .gift .image {
     background: url(../images/gift-and-curse.png) 0 0 no-repeat;
     background-size: contain;
@@ -538,6 +532,12 @@ footer .footer-wrapper {
     padding-bottom: 100%;
     clear: right;
     margin-bottom: -26%; }
+  .artwork .beachmasters .image {
+    background: url(../images/beachmasters-revenge.png) 50% 0 no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+    clear: right; }
 
 @media screen and (min-width: 663px) {
   #artist-page h1 {
@@ -558,11 +558,10 @@ footer .footer-wrapper {
     .artist-info .social-media {
       max-width: 430px;
       padding-top: 30px;
-      padding-right: 2%;
       float: left;
       width: 60%;
       box-sizing: border-box;
-      padding-left: 2%; }
+      padding-left: 4%; }
     .artist-info .tools {
       padding-top: 10px;
       clear: both;
@@ -661,18 +660,25 @@ footer .footer-wrapper {
     border-bottom: 2px solid #53eae3; }
 
   .artist-info {
-    max-width: 980px; }
+    max-width: 950px; }
     .artist-info .profile-pic-wrapper {
-      width: 30%;
+      padding-left: 5%;
+      width: 28%;
       margin-top: -150px; }
-    .artist-info .tools {
-      margin-top: -20%; }
     .artist-info .social-media {
       width: 42%;
       box-sizing: border-box;
       padding-left: 5%; }
       .artist-info .social-media .email img, .artist-info .social-media .facebook img, .artist-info .social-media .instagram img, .artist-info .social-media .twitter img, .artist-info .social-media .website img {
         padding-bottom: 0; }
+    .artist-info .tools {
+      margin: 0 auto;
+      width: 75%;
+      margin-top: -20%; }
+    .artist-info .bio {
+      width: 75%; }
+      .artist-info .bio p {
+        padding-top: 10px; }
 
   .artwork {
     max-width: 980px;
@@ -734,7 +740,7 @@ header {
   header .modernizr-slideshow li div {
     z-index: 1000;
     position: absolute;
-    top: 80px;
+    top: 100px;
     left: 0px;
     width: 100%;
     text-align: center;
@@ -1023,12 +1029,15 @@ header {
   top: 0;
   z-index: 5; }
   .nav-small .logo-wrapper {
-    height: 20px;
-    width: 20px;
-    padding: 10px;
-    background-color: #fff;
+    height: 50px;
+    width: 70px;
     float: left;
     margin: 10px; }
+    .nav-small .logo-wrapper .logo {
+      background: url(../images/logo.png) 0 0 no-repeat;
+      background-size: contain;
+      height: 100%;
+      width: 100%; }
   .nav-small .right {
     float: right;
     padding: 10px 10px 0 0; }
@@ -1180,29 +1189,28 @@ main {
 
 footer {
   position: relative;
-  top: 550px;
-  background-color: #53eae3;
+  top: 580px;
+  background-color: #565656;
   width: 100%; }
-  footer .footer-wrapper {
-    background: url(../images/two.jpg) center -200px no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 60px;
-    padding-top: 10px; }
-    footer .footer-wrapper .logo-wrapper {
-      height: 50px;
-      width: 50px;
-      background-color: #fff;
-      margin: 0 auto; }
+  footer .logo-wrapper {
+    height: 50px;
+    width: 50px;
+    padding: 5px 0;
+    margin: 0 auto; }
+    footer .logo-wrapper .logo {
+      background: url(../images/logo.png) 0 0 no-repeat;
+      background-size: contain;
+      height: 100%;
+      width: 100%; }
 
 @media screen and (min-width: 660px) {
   h1 {
     font-size: 75px; }
 
   header .modernizr-slideshow li:nth-child(1) .background {
-    background-position: center -380px; }
+    background-position: center -150px; }
   header .modernizr-slideshow li:nth-child(2) .background {
-    background-position: center -380px; }
+    background-position: center -150px; }
   header .modernizr-slideshow li .background {
     height: 380px; }
   header .modernizr-slideshow li div {
@@ -1275,7 +1283,7 @@ footer {
   header .modernizr-slideshow li div {
     top: 250px; }
     header .modernizr-slideshow li div p {
-      width: 90%;
+      width: 70%;
       line-height: 25px;
       font-size: 21px; }
   header .header {
@@ -1294,12 +1302,15 @@ footer {
     top: 0;
     width: 100%; }
     header .nav-large .logo-wrapper {
-      height: 30px;
-      width: 30px;
-      padding: 10px;
-      background-color: #fff;
+      height: 60px;
+      width: 60px;
       float: left;
       margin: 10px; }
+      header .nav-large .logo-wrapper .logo {
+        background: url(../images/logo.png) 0 0 no-repeat;
+        background-size: contain;
+        height: 100%;
+        width: 100%; }
     header .nav-large nav {
       float: left;
       text-transform: uppercase;
@@ -1342,14 +1353,16 @@ footer {
           width: 20px; }
 
   main {
+    width: 100%;
+    margin: 0 auto;
     top: 540px; }
     main h2 {
-      padding-left: 15px;
+      padding-left: 30px;
       font-size: 39px;
       padding-bottom: 60px; }
     main p {
-      padding-left: 20px;
-      width: 90%;
+      padding-left: 30px;
+      width: 85%;
       margin: 0; }
     main .about-left {
       float: left;
@@ -1360,6 +1373,8 @@ footer {
         background-position: center -20px; }
       main .about-left .featured-artist2 {
         background-position: center -50px; }
+      main .about-left p {
+        max-width: 500px; }
     main .about-right {
       float: right;
       margin: 0;
@@ -1398,6 +1413,6 @@ footer {
         padding-bottom: 65px; }
 
   footer {
-    top: 130px; } }
+    top: 200px; } }
 
 /*# sourceMappingURL=style.css.map */
