@@ -1032,7 +1032,7 @@ header {
     height: 50px;
     width: 70px;
     float: left;
-    margin: 10px; }
+    margin: 5px; }
     .nav-small .logo-wrapper .logo {
       background: url(../images/logo.png) 0 0 no-repeat;
       background-size: contain;
@@ -1042,11 +1042,11 @@ header {
     float: right;
     padding: 10px 10px 0 0; }
     .nav-small .right .container {
-      width: 50px;
-      margin: 10px auto; }
+      width: 60px;
+      margin: 5px auto; }
     .nav-small .right .searchbox {
       position: relative;
-      width: 50px;
+      width: 60px;
       height: 50px;
       float: right;
       overflow: hidden;
@@ -1061,7 +1061,7 @@ header {
       border: 0;
       outline: 0;
       background: transparent;
-      width: 70%;
+      width: 90%;
       height: 50px;
       margin: 0;
       padding: 0px 25px 0px 20px;
@@ -1092,14 +1092,14 @@ header {
       cursor: pointer;
       background: transparent; }
     .nav-small .right .searchbox-open {
-      width: 80%; }
+      width: 60%; }
     .nav-small .right .searchbox-icon img {
       height: 30px;
       width: 30px; }
     .nav-small .right #menu-button {
       float: right;
-      height: 30px;
-      width: 30px;
+      height: 35px;
+      width: 35px;
       display: block;
       z-index: 5; }
       .nav-small .right #menu-button img {

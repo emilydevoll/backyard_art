@@ -69,7 +69,7 @@ header {
 		// padding: 10px;
 		// background-color: #fff;
 		float: left;
-		margin: 10px;
+		margin: 5px;
 
 		.logo {
 			background: url(../images/logo.png) 0 0 no-repeat;
@@ -85,6 +85,8 @@ header {
 		padding: 10px 10px 0 0;
 
 		.searchbox-icon {
+			// height: 35px;
+			// width: 35px;
 			img {
 				height: 30px;
 				width: 30px;
@@ -93,8 +95,8 @@ header {
 
 		#menu-button {
 			float: right;
-			height: 30px;
-			width: 30px;
+			height: 35px;
+			width: 35px;
 			display: block;
 			z-index: 5;
 

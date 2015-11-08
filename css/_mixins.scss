@@ -370,13 +370,13 @@
 
 @mixin search {
 	.container{
-	    width: 50px;
-	    margin: 10px auto;
+	    width: 60px;
+	    margin: 5px auto;
 	}
 
 	.searchbox{
 	    position: relative;
-	    width: 50px;
+	    width: 60px;
 	    // width: 0%;
 	    height: 50px;
 	    float: right;
@@ -395,7 +395,7 @@
 	    border: 0;
 	    outline: 0;
 	    background: transparent;
-	    width: 70%;
+	    width: 90%;
 	    height: 50px;
 	    margin: 0;
 	    padding: 0px 25px 0px 20px;
@@ -441,7 +441,7 @@
 	}
 
 	.searchbox-open{
-	    width: 80%;
+	    width: 60%;
 	}
 }
 
