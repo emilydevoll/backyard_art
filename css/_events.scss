@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 950px) {
+
+	#events-page {
+		.nav-large {
+
+			nav {
+
+				#home {
+					border: none;
+				}
+
+				#events {
+					border-bottom: 2px solid $light-blue;
+				}
+			}
+		}
+	}
+}

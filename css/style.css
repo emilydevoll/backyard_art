@@ -677,6 +677,11 @@ footer .footer-wrapper {
   .artwork {
     max-width: 980px;
     margin: 0 auto; } }
+@media screen and (min-width: 950px) {
+  #events-page .nav-large nav #home {
+    border: none; }
+  #events-page .nav-large nav #events {
+    border-bottom: 2px solid #53eae3; } }
 body {
   -webkit-font-smoothing: antialiased; }
 
