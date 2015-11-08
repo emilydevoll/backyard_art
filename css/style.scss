@@ -65,7 +65,7 @@ header {
 
 	.logo-wrapper {
 		height: 50px;
-		width: 70px;
+		width: 50px;
 		// padding: 10px;
 		// background-color: #fff;
 		float: left;
@@ -82,6 +82,7 @@ header {
 	.right {
 		@include search;
 		float: right;
+		width: 70%;
 		padding: 10px 10px 0 0;
 
 		.searchbox-icon {
@@ -514,12 +515,13 @@ footer {
 	 		box-sizing: border-box;
 
 	 		h2 {
-	 			padding-top: 10px;
+	 			padding-top: 5px;
 	 		}
 
-	 		// p {
-	 		// 	width: 95%;
-	 		// }
+	 		p {
+	 			min-width: 450px;
+	 			padding-bottom: 15px;
+	 		}
 	 		// padding-top: 20px;
 	 	}
 
@@ -566,7 +568,7 @@ footer {
 	}
 
 	footer {
-		top: 200px;
+		top: 210px;
 
 		// .footer-wrapper {}
 	}
