@@ -377,7 +377,7 @@
 	    width: 90%;
 	    height: 50px;
 	    margin: 0;
-	    padding: 0px 25px 0px 20px;
+	    padding: 0px 35px 0px 20px;
 	    font-size: 20px;
 	    color: #fff;
 	    font-family: $paragraph-font;
@@ -432,6 +432,7 @@
 		margin: 10px;
 		// width: 75%;
 		// flex-direction: row;
+		background-color: #fff;
 		box-shadow: 3px 3px 1px rgba(0,0,0,.15);
 	}
 
@@ -448,7 +449,10 @@
 	.field>input[type=text] {
 		// flex: 1;
 		float: left;
-		border: 0.2em solid #fff;
+		color: #fff;
+		border: none;
+		// box-shadow: 3px 3px 1px rgba(0,0,0,.15);
+		// border: 0.2em solid #fff;
 	}
 
 	.field>button {
