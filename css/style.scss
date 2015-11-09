@@ -133,7 +133,7 @@ main {
 		color: #fff;
 		text-transform: uppercase;
 		text-shadow: 2px 5px 1px rgba(0,0,0,.15);
-		padding-left: 10px;
+		padding-left: 2px;
 		padding-bottom: 45px;
 	}
 
@@ -143,13 +143,13 @@ main {
 		text-transform: uppercase;
 		text-shadow: 0 5px 1px rgba(0,0,0,.15);
 		font-size: 30px;
-		padding-left: 10px
+		padding-left: 2px
 	}
 
 	p {
 		line-height: 20px;
 		font-size: 14px;
-		padding: 10px 20px 10px 20px;
+		padding: 10px 20px 20px 20px;
 	}
 
 	.about-left {
@@ -220,7 +220,7 @@ main {
 			width: 100%;
 			background: url(../images/roger.jpg) 0 0 no-repeat;
 			background-size: cover;
-			margin: 5px auto;
+			margin: 2px auto;
 			max-width: 400px;
 		}
 
@@ -229,7 +229,7 @@ main {
 			width: 100%;
 			background: url(../images/artbash.png) 0 0 no-repeat;
 			background-size: cover;
-			margin: 5px auto;
+			margin: 2px auto;
 			max-width: 400px;
 		}
 	}
@@ -342,6 +342,10 @@ footer {
 				clear: both;
 			}
 
+			h3 {
+				padding-bottom: 65px;
+			}
+
 			.event1 {
 				clear: both;
 				float: left;
@@ -349,6 +353,7 @@ footer {
 				margin-top: 0;
 				height: 150px;
 				max-width: 350px;
+				margin-bottom: 40px;
 			}
 
 			.event2 {
@@ -356,6 +361,7 @@ footer {
 				width: 50%;
 				margin-top: 0;
 				height: 150px;
+				margin-bottom: 40px;
 			
 			}
 		}
@@ -367,7 +373,7 @@ footer {
 
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 960px) {
 
 	.nav-small {
 		display: none;
@@ -484,6 +490,7 @@ footer {
 	 		padding-left: 30px;
 	 		font-size: 39px;
 	 		padding-bottom: 60px;
+	 		padding-top: 20px;
 	 	}
 
 	 	p {
@@ -497,7 +504,7 @@ footer {
 	 	.about-left {
 	 		float: left;
 	 		width: 50%;	
-	 		padding: 5px;
+	 		// padding: 5px;
 	 		box-sizing: border-box;
 
 	 		.featured-artist1 {
@@ -518,17 +525,17 @@ footer {
 	 		float: right;
 	 		margin: 0;
 	 		width: 50%;
-	 		padding: 5px;
+	 		// padding: 5px;
 	 		box-sizing: border-box;
 
 	 		h2 {
-	 			padding-top: 5px;
+	 			padding-top: 18px;
 	 		}
 
 	 		p {
 	 			// position: absolute;
 	 			min-width: 450px;
-	 			padding-bottom: 15px;
+	 			padding-bottom: 27px;
 	 		}
 	 		// padding-top: 20px;
 	 	}
@@ -540,6 +547,10 @@ footer {
 	 		// background-position: center -20px;
 	 		margin-top: 10px;
 	 		height: 140px;
+
+	 		h3 {
+	 			font-size: 48px;
+	 		}
 	 	}
 
 	 	.featured-artist2 {
@@ -549,6 +560,10 @@ footer {
 	 		background-position: center -50px;
 	 		height: 140px;
 	 		margin-top: 10px;
+
+	 		h3 {
+	 			font-size: 48px;
+	 		}
 	 	}
 
 	 	.event1 {
@@ -559,7 +574,8 @@ footer {
 	 		margin-top: 10px;
 
 	 		h3 {
-	 			padding-bottom: 15px;
+	 			padding-bottom: 65px;
+	 			font-size: 48px;
 	 		}
 	 	}
 
@@ -571,6 +587,7 @@ footer {
 	 		
 	 		h3 {
 	 			padding-bottom: 65px;
+	 			font-size: 48px;
 	 		}
 	 	}
 	}
