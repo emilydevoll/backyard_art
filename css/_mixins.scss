@@ -53,7 +53,7 @@
 	  line-height: 60px;; 
 
 	  &:nth-of-type(odd) {
-	  	color: #53eae3;
+	  	// color: #53eae3;
 	  }
 
 	  &:nth-of-type(even) {
@@ -80,9 +80,9 @@
 	  animation-delay: .4s;
 	  // background-color: #666666;
 
-	  h1 {
-	  	color: #53eae3;
-	  }
+	  // h1 {
+	  // 	color: #53eae3;
+	  // }
 	}
 	.modernizr-slideshow li:nth-child(2) .background { 
 		background-image: url(../images/one1.jpg);
@@ -285,9 +285,10 @@
 	@keyframes imageAnimation { 
 	  0% { opacity: 0;
 	       animation-timing-function: ease-in; }
-	  8% { opacity: 1;
-	       animation-timing-function: ease-out; }
-	  17% { opacity: 1 }
+	  8% { opacity: 1 }
+	       // animation-timing-function: ease-out; }
+	  17% { opacity: 1;
+	  		animation-timing-function: ease-out; }
 	  25% { opacity: 0 }
 	  100% { opacity: 0 }
 	}
@@ -332,9 +333,10 @@
 	  // 0% { opacity: 0 }
 	0% { opacity: 0;
 	       animation-timing-function: ease-in; }
-	  8% { opacity: 1;
-	       animation-timing-function: ease-out; }
-	  17% { opacity: 1 }
+	  8% { opacity: 1}
+	       // animation-timing-function: ease-out; }
+	  17% { opacity: 1;
+	 	 animation-timing-function: ease-out; }
 	   25% { opacity: 0 }
 	  100% { opacity: 0 }
 	}
