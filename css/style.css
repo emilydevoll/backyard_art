@@ -116,7 +116,8 @@ header .header-background {
     .directory-aside .directory-navigation .artist-search .field > button {
       background-color: #53eae3;
       color: white;
-      width: 40px; }
+      width: 40px;
+      box-sizing: border-box; }
 .directory-aside .filter {
   box-sizing: border-box;
   padding: 10px;
@@ -810,7 +811,8 @@ header {
     line-height: 20px;
     font-weight: 300; }
     header .modernizr-slideshow li div p span {
-      color: #53eae3; }
+      color: #53eae3;
+      font-weight: 500; }
   header .modernizr-slideshow li:nth-child(1) .background {
     background-image: url(../images/oneblack.jpg);
     background-size: cover;
