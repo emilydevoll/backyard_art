@@ -71,16 +71,18 @@ header .header-background {
   font-size: 14px; }
 .directory-aside .directory-icon-wrapper {
   float: left;
-  margin: 2%;
-  width: 12%; }
+  padding: 2%;
+  width: 15%;
+  box-sizing: border-box; }
   .directory-aside .directory-icon-wrapper .directory-icon {
     background: url(../images/logo3.png) 0 0 no-repeat;
     background-size: contain;
     width: 100%;
     padding-bottom: 100%; }
 .directory-aside .directory-navigation {
-  float: left;
-  width: 79%; }
+  float: right;
+  width: 83%;
+  margin-right: 2%; }
   .directory-aside .directory-navigation .artist-search {
     width: 100%;
     padding-bottom: 60px;
@@ -122,8 +124,6 @@ header .header-background {
       height: 40px;
       box-sizing: border-box;
       float: right; }
-    .directory-aside .directory-navigation .artist-search .searchbox-input {
-      color: #000; }
 .directory-aside .filter {
   box-sizing: border-box;
   padding: 10px;
