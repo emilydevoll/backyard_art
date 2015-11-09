@@ -101,7 +101,7 @@ header .header-background {
       height: 35px; }
     .directory-aside .directory-navigation .artist-search .field > input[type=text] {
       float: left;
-      color: #fff;
+      color: #000;
       border: none; }
     .directory-aside .directory-navigation .artist-search .field > button {
       background-color: #53eae3;
@@ -122,6 +122,8 @@ header .header-background {
       height: 40px;
       box-sizing: border-box;
       float: right; }
+    .directory-aside .directory-navigation .artist-search .searchbox-input {
+      color: #000; }
 .directory-aside .filter {
   box-sizing: border-box;
   padding: 10px;
@@ -1403,7 +1405,7 @@ footer {
         height: 35px; }
       header .nav-large .right .field > input[type=text] {
         float: left;
-        color: #fff;
+        color: #000;
         border: none; }
       header .nav-large .right .field > button {
         background-color: #53eae3;
