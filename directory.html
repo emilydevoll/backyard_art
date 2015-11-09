@@ -26,7 +26,7 @@
 						<a href="#menu" id="menu-button"><img src="images/menu-blue.png"></a>
 
 					<form class="searchbox">
-						<input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+						<input type="text" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
 						<input type="submit" class="searchbox-submit" value="">
 						<span class="searchbox-icon"><img src="images/search-blue.png"></span>
 					</form>
@@ -55,175 +55,177 @@
 				</div>
 			</div>
 		</header>
-		<section class="directory-aside">
-			<div class="directory-icon-wrapper">
-				<div class="directory-icon">
-				</div>
-			</div>
-			<div class="directory-navigation">
-				<div class="artist-search">
-					<div class="field" id="searchform">
-						<input type="text" id="searchterm" placeholder="Search directory" />
-						<button type="button" id="search"><img src="images/search-white.png"></button>
+		<div class="page-wrapper">
+			<section class="directory-aside">
+				<div class="directory-icon-wrapper">
+					<div class="directory-icon">
 					</div>
 				</div>
-			</div>
-			<div class="filter">
-				<h6>Filter by:</h6>
-				<div id="leftMenu">
-					<details>
-						<summary>Medium</summary>
-					    <a href="#">Acrylic Paint</a>
-					    <a href="#">Airbrush</a>
-					    <a href="#">Chalk</a>
-					    <a href="#">Charcoal</a>
-					    <a href="#">Colored Pencil</a>
-					    <a href="#">Conté</a>
-					    <a href="#">Crayon</a>
-					    <a href="#">Digital</a>
-					    <a href="#">Gouache</a>
-					    <a href="#">Graphite and Pencil</a>
-					    <a href="#">Marker</a>
-					    <a href="#">Mixed Media</a>
-					    <a href="#">Oil Paint</a>
-					    <a href="#">Pastel</a>
-					    <a href="#">Pen and Ink</a>
-					    <a href="#">Photography</a>
-					    <a href="#">Spraypaint</a>
-					    <a href="#">Watercolor</a>
-					    <a href="#">Wood</a>
-					    <a href="#">Other</a>
-					</details>
+				<div class="directory-navigation">
+					<div class="artist-search">
+						<div class="field" id="searchform">
+							<input type="text" id="searchterm" placeholder="Search directory" />
+							<button type="button" id="search"><img src="images/search-white.png"></button>
+						</div>
+					</div>
 				</div>
-				<div id="rightMenu">
-					<details>
-					    <summary>Style</summary>
-					    <a href="#">Abstract</a>
-					    <a href="#">Fine Art</a>
-					    <a href="#">Graffiti</a>
-					    <a href="#">Modern</a>
-					    <a href="#">Photorealism</a>
-					    <a href="#">Popart</a>
-					    <a href="#">Street Art</a>
-					    <a href="#">Surrealism</a>
-					    <a href="#">Other</a>
-					</details>
+				<div class="filter">
+					<h6>Filter by:</h6>
+					<div id="leftMenu">
+						<details>
+							<summary>Medium</summary>
+						    <a href="#">Acrylic Paint</a>
+						    <a href="#">Airbrush</a>
+						    <a href="#">Chalk</a>
+						    <a href="#">Charcoal</a>
+						    <a href="#">Colored Pencil</a>
+						    <a href="#">Conté</a>
+						    <a href="#">Crayon</a>
+						    <a href="#">Digital</a>
+						    <a href="#">Gouache</a>
+						    <a href="#">Graphite and Pencil</a>
+						    <a href="#">Marker</a>
+						    <a href="#">Mixed Media</a>
+						    <a href="#">Oil Paint</a>
+						    <a href="#">Pastel</a>
+						    <a href="#">Pen and Ink</a>
+						    <a href="#">Photography</a>
+						    <a href="#">Spraypaint</a>
+						    <a href="#">Watercolor</a>
+						    <a href="#">Wood</a>
+						    <a href="#">Other</a>
+						</details>
+					</div>
+					<div id="rightMenu">
+						<details>
+						    <summary>Style</summary>
+						    <a href="#">Abstract</a>
+						    <a href="#">Fine Art</a>
+						    <a href="#">Graffiti</a>
+						    <a href="#">Modern</a>
+						    <a href="#">Photorealism</a>
+						    <a href="#">Popart</a>
+						    <a href="#">Street Art</a>
+						    <a href="#">Surrealism</a>
+						    <a href="#">Other</a>
+						</details>
+					</div>
 				</div>
-			</div>
-			<div class="sort">
-				<h6>Sort by last name:</h6>
-				<h4>
-					<a href="#">A</a> 
-					<a href="#">B</a>
-					<a href="#"> C</a>
-					<a href="#"> D</a>
-					<a href="#"> E</a>
-					<a href="#"> F</a>
-					<a href="#"> G</a>
-					<a href="#"> H</a>
-					<a href="#"> I</a>
-					<a href="#"> J</a>
-					<a href="#"> K</a>
-					<a href="#"> L</a>
-					<a href="#"> M</a>
-					<a href="#"> N</a>
-					<a href="#"> O</a>
-					<a href="#"> P</a>
-					<a href="#"> Q</a>
-					<a href="#"> R</a>
-					<a href="#"> S</a>
-					<a href="#"> T</a>
-					<a href="#"> U</a>
-					<a href="#"> V</a>
-					<a href="#"> W</a>
-					<a href="#"> X</a>
-					<a href="#">Y</a>
-					<a href="#"> Z</a>
-				</h4>
-				<h5><a href="#">VIEW ALL</a></h5>
-			</div>
-		</section>
+				<div class="sort">
+					<h6>Sort by last name:</h6>
+					<h4>
+						<a href="#">A</a> 
+						<a href="#">B</a>
+						<a href="#"> C</a>
+						<a href="#"> D</a>
+						<a href="#"> E</a>
+						<a href="#"> F</a>
+						<a href="#"> G</a>
+						<a href="#"> H</a>
+						<a href="#"> I</a>
+						<a href="#"> J</a>
+						<a href="#"> K</a>
+						<a href="#"> L</a>
+						<a href="#"> M</a>
+						<a href="#"> N</a>
+						<a href="#"> O</a>
+						<a href="#"> P</a>
+						<a href="#"> Q</a>
+						<a href="#"> R</a>
+						<a href="#"> S</a>
+						<a href="#"> T</a>
+						<a href="#"> U</a>
+						<a href="#"> V</a>
+						<a href="#"> W</a>
+						<a href="#"> X</a>
+						<a href="#">Y</a>
+						<a href="#"> Z</a>
+					</h4>
+					<h5><a href="#">VIEW ALL</a></h5>
+				</div>
+			</section>
 
 
-		
-		<section class="view-artists">
-				<div class="monica col-4">
-					<a href="#">
-						<!-- <img src="images/monica.png"> -->
-						<div class="image"></div>
-						<h3>Monica Berlanga</h3>
-					</a>
-				</div>
-				<div class="emily col-4">
-					<a href="#">
-						<!-- <img src="images/devoll.png"> -->
-						<div class="image"></div>
-						<h3>Emily DeVoll</h3>
-					</a>
-				</div>
-				<div class="ramona col-4">
-					<a href="artist.html">
-						<!-- <img src="images/so-long.jpg"> -->
-						<div class="image"></div>
-						<h3>Ramona Flowers</h3>
-					</a>
-				</div>
-				<div class="jenny col-4">
-					<a href="#">
-					<!-- <img src="images/jenny.png"> -->
-						<div class="image"></div>
-						<h3>Jenny Grandberry</h3>
-					</a>
-				</div>
-				<div class="brooke col-4">
-					<a href="#">
-						<div class="image"></div>
-						<h3>Brooke Hulsey</h3>
-					</a>
-				</div>
-				<div class="ryan col-4">
-					<a href="#">
-						<div class="image"></div>
-						<h3>Ryan Johnson</h3>
-					</a>
-				</div>
-				<div class="rudy col-4">
-					<a href="#">
-						<div class="image"></div>
-						<h3>Rudy Lunsford</h3>
-					</a>
-				</div>
-				<div class="lauren col-4">
-					<a href="#">
-						<div class="image"></div>
-						<h3>Lauren Martin</h3>
-					</a>
-				</div>
-				<div class="david col-4">
-					<a href="#">
-						<div class="image"></div>
-						<h3>David McKay</h3>
-					</a>
-				</div>
-				<div class="dane col-4">
-					<a href="#">
-						<div class="image"></div>
-						<h3>Dane Teller</h3>
-					</a>
-				</div>
-				<div class="dan col-4">
-					<a href="#">
-						<div class="image"></div>
-						<h3>Dan Wilson</h3>
-					</a>
-				</div>
-				<div class="matt col-4">
-					<a href="#">
-						<div class="image"></div>
-						<h3>Matt Wood</h3>
-					</a>
-				</div>
-		</section>
+			
+			<section class="view-artists">
+					<div class="monica col-4">
+						<a href="#">
+							<!-- <img src="images/monica.png"> -->
+							<div class="image"></div>
+							<h3>Monica Berlanga</h3>
+						</a>
+					</div>
+					<div class="emily col-4">
+						<a href="#">
+							<!-- <img src="images/devoll.png"> -->
+							<div class="image"></div>
+							<h3>Emily DeVoll</h3>
+						</a>
+					</div>
+					<div class="ramona col-4">
+						<a href="artist.html">
+							<!-- <img src="images/so-long.jpg"> -->
+							<div class="image"></div>
+							<h3>Ramona Flowers</h3>
+						</a>
+					</div>
+					<div class="jenny col-4">
+						<a href="#">
+						<!-- <img src="images/jenny.png"> -->
+							<div class="image"></div>
+							<h3>Jenny Grandberry</h3>
+						</a>
+					</div>
+					<div class="brooke col-4">
+						<a href="#">
+							<div class="image"></div>
+							<h3>Brooke Hulsey</h3>
+						</a>
+					</div>
+					<div class="ryan col-4">
+						<a href="#">
+							<div class="image"></div>
+							<h3>Ryan Johnson</h3>
+						</a>
+					</div>
+					<div class="rudy col-4">
+						<a href="#">
+							<div class="image"></div>
+							<h3>Rudy Lunsford</h3>
+						</a>
+					</div>
+					<div class="lauren col-4">
+						<a href="#">
+							<div class="image"></div>
+							<h3>Lauren Martin</h3>
+						</a>
+					</div>
+					<div class="david col-4">
+						<a href="#">
+							<div class="image"></div>
+							<h3>David McKay</h3>
+						</a>
+					</div>
+					<div class="dane col-4">
+						<a href="#">
+							<div class="image"></div>
+							<h3>Dane Teller</h3>
+						</a>
+					</div>
+					<div class="dan col-4">
+						<a href="#">
+							<div class="image"></div>
+							<h3>Dan Wilson</h3>
+						</a>
+					</div>
+					<div class="matt col-4">
+						<a href="#">
+							<div class="image"></div>
+							<h3>Matt Wood</h3>
+						</a>
+					</div>
+			</section>
+			</div>
 		<footer>
 			<div class="footer-wrapper">
 				<div class="logo-wrapper">

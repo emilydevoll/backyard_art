@@ -13,6 +13,10 @@ body { -webkit-font-smoothing: antialiased; }
 	background-color: #fff;
 }
 
+input, input[type="password"], input[type="search"], isindex{
+	background-color: transparent;
+}
+
 h1 {
 	font-size: 50px;
 	padding-bottom: 20px;
@@ -416,6 +420,8 @@ footer {
 			// padding-top: 30px;
 			font-size: 20px;
 		}
+
+		.header {}
 
 		.nav-large {
 			display: inline-block;
