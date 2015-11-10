@@ -73,16 +73,16 @@ header .header-background {
   float: left;
   padding: 2%;
   width: 15%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0; }
   .directory-aside .directory-icon-wrapper .directory-icon {
     background: url(../images/logo3.png) 0 0 no-repeat;
     background-size: contain;
     width: 100%;
     padding-bottom: 100%; }
 .directory-aside .directory-navigation {
-  float: right;
-  width: 83%;
-  margin-right: 2%; }
+  float: left;
+  width: 83%; }
   .directory-aside .directory-navigation .artist-search {
     width: 100%;
     padding-bottom: 60px;
@@ -240,7 +240,7 @@ header .header-background {
   .view-artists .jenny {
     float: right; }
     .view-artists .jenny .image {
-      background: url(../images/jenny.png) 0 0 no-repeat;
+      background: url(../images/jenny.jpg) 0 0 no-repeat;
       background-size: contain;
       width: 100%;
       padding-bottom: 100%; }
@@ -248,14 +248,14 @@ header .header-background {
     clear: both;
     float: left; }
     .view-artists .brooke .image {
-      background: url(../images/brooke.png) 0 0 no-repeat;
+      background: url(../images/brooke.jpg) 0 0 no-repeat;
       background-size: contain;
       width: 100%;
       padding-bottom: 100%; }
   .view-artists .ryan {
     float: right; }
     .view-artists .ryan .image {
-      background: url(../images/ryan.png) 0 0 no-repeat;
+      background: url(../images/ryan.jpg) 0 0 no-repeat;
       background-size: cover;
       width: 100%;
       padding-bottom: 100%; }
@@ -263,14 +263,14 @@ header .header-background {
     clear: both;
     float: left; }
     .view-artists .rudy .image {
-      background: url(../images/rudy.png) 0 no-repeat;
+      background: url(../images/rudy.jpg) 0 no-repeat;
       background-size: contain;
       width: 100%;
       padding-bottom: 100%; }
   .view-artists .lauren {
     float: right; }
     .view-artists .lauren .image {
-      background: url(../images/lauren.png) 0 0 no-repeat;
+      background: url(../images/lauren.jpg) 0 0 no-repeat;
       background-size: contain;
       width: 100%;
       padding-bottom: 100%; }
@@ -278,14 +278,14 @@ header .header-background {
     clear: both;
     float: left; }
     .view-artists .david .image {
-      background: url(../images/david.png) 0 0 no-repeat;
+      background: url(../images/david.jpg) 0 0 no-repeat;
       background-size: cover;
       width: 100%;
       padding-bottom: 100%; }
   .view-artists .dane {
     float: right; }
     .view-artists .dane .image {
-      background: url(../images/dane.png) 0 0 no-repeat;
+      background: url(../images/dane.jpg) 0 0 no-repeat;
       background-size: contain;
       width: 100%;
       padding-bottom: 100%; }
@@ -293,14 +293,14 @@ header .header-background {
     clear: both;
     float: left; }
     .view-artists .dan .image {
-      background: url(../images/dan.png) 0 0 no-repeat;
+      background: url(../images/dan.jpg) 0 0 no-repeat;
       background-size: contain;
       width: 100%;
       padding-bottom: 100%; }
   .view-artists .matt {
     float: right; }
     .view-artists .matt .image {
-      background: url(../images/matt.png) 0 0 no-repeat;
+      background: url(../images/matt.jpg) 0 0 no-repeat;
       background-size: cover;
       width: 100%;
       padding-bottom: 100%; }
@@ -317,8 +317,8 @@ header .header-background {
       width: 18%;
       margin: 10px 5px 10px 10px; }
     .directory-aside .directory-navigation {
-      width: 79%;
-      float: left; }
+      width: 78%;
+      float: right; }
       .directory-aside .directory-navigation .artist-search .field {
         width: 95%;
         height: 40px;
@@ -342,6 +342,8 @@ header .header-background {
     padding: 10px 0px 20px 0px;
     overflow: hidden;
     box-sizing: border-box; }
+    .view-artists h3 {
+      font-size: 20px; }
     .view-artists .col-4 {
       width: 31%;
       margin-right: 3.5%;
@@ -387,7 +389,7 @@ header .header-background {
     border-bottom: 2px solid #53eae3; }
 
   .page-wrapper {
-    max-width: 1250px;
+    max-width: 1150px;
     margin: 0 auto; }
 
   .directory-aside {

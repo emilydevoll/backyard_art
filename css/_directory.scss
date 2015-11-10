@@ -42,6 +42,7 @@ header {
 		// height: 50px;
 		width: 15%;
 		box-sizing: border-box;
+		margin: 0;
 		// padding-bottom: 10%;
 		// background-color: #666;
 
@@ -55,9 +56,9 @@ header {
 	}
 
 	.directory-navigation {
-		float: right;
+		float: left;
 		width: 83%;
-		margin-right: 2%;
+		// margin-right: 2%;
 
 		
 
@@ -276,7 +277,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/jenny.png) 0 0 no-repeat;
+			background: url(../images/jenny.jpg) 0 0 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -289,7 +290,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/brooke.png) 0 0 no-repeat;
+			background: url(../images/brooke.jpg) 0 0 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -301,7 +302,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/ryan.png) 0 0 no-repeat;
+			background: url(../images/ryan.jpg) 0 0 no-repeat;
 			background-size: cover;
 			width: 100%;
 			padding-bottom: 100%;
@@ -314,7 +315,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/rudy.png) 00 no-repeat;
+			background: url(../images/rudy.jpg) 00 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -326,7 +327,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/lauren.png) 0 0 no-repeat;
+			background: url(../images/lauren.jpg) 0 0 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -339,7 +340,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/david.png) 0 0 no-repeat;
+			background: url(../images/david.jpg) 0 0 no-repeat;
 			background-size: cover;
 			width: 100%;
 			padding-bottom: 100%;
@@ -351,7 +352,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/dane.png) 0 0 no-repeat;
+			background: url(../images/dane.jpg) 0 0 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -364,7 +365,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/dan.png) 0 0 no-repeat;
+			background: url(../images/dan.jpg) 0 0 no-repeat;
 			background-size: contain;
 			width: 100%;
 			padding-bottom: 100%;
@@ -376,7 +377,7 @@ header {
 		// width: 49%;
 
 		.image {
-			background: url(../images/matt.png) 0 0 no-repeat;
+			background: url(../images/matt.jpg) 0 0 no-repeat;
 			background-size: cover;
 			width: 100%;
 			padding-bottom: 100%;
@@ -420,8 +421,8 @@ footer {
 		}
 
 		.directory-navigation {
-			width: 79%;
-			float: left;
+			width: 78%;
+			float: right;
 
 			.artist-search {
 
@@ -471,6 +472,10 @@ footer {
 		padding: 10px 0px 20px 0px;
 		overflow: hidden;
 		box-sizing: border-box;
+
+		h3 {
+			font-size: 20px;
+		}
 
 
 		.col-4 {
@@ -561,7 +566,7 @@ footer {
 	}
 
 	.page-wrapper {
-		max-width: 1250px;
+		max-width: 1150px;
 		margin: 0 auto;
 	}
 	.directory-aside {
