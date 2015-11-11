@@ -206,6 +206,8 @@ header .header-background {
   padding-top: 30px; }
   .view-artists a {
     text-decoration: none; }
+  .view-artists a:hover h3 {
+    color: #53eae3; }
   .view-artists h3 {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
@@ -801,7 +803,7 @@ header {
     -moz-animation: imageAnimation 36s linear infinite 0s;
     -o-animation: imageAnimation 36s linear infinite 0s;
     -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s; }
+    animation: imageAnimation 72s linear infinite 0s; }
   header .modernizr-slideshow li div {
     z-index: 1000;
     position: absolute;
@@ -814,7 +816,7 @@ header {
     -moz-animation: titleAnimation 36s linear infinite 0s;
     -o-animation: titleAnimation 36s linear infinite 0s;
     -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s; }
+    animation: titleAnimation 72s linear infinite 0s; }
   header .modernizr-slideshow li div h1 {
     line-height: 60px; }
     header .modernizr-slideshow li div h1:nth-of-type(even) {
@@ -831,8 +833,7 @@ header {
   header .modernizr-slideshow li:nth-child(1) .background {
     background-image: url(../images/oneblack.jpg);
     background-size: cover;
-    background-position: center -100px;
-    animation-delay: .4s; }
+    background-position: center -100px; }
   header .modernizr-slideshow li:nth-child(2) .background {
     background-image: url(../images/one1.jpg);
     background-size: cover;
@@ -841,7 +842,7 @@ header {
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
     -ms-animation-delay: 6s;
-    animation-delay: 6s; }
+    animation-delay: 12s; }
   header .modernizr-slideshow li:nth-child(3) .background {
     background-image: url(../images/twoblack.jpg);
     background-size: cover;
@@ -850,7 +851,7 @@ header {
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
     -ms-animation-delay: 12s;
-    animation-delay: 12s; }
+    animation-delay: 24s; }
   header .modernizr-slideshow li:nth-child(4) .background {
     background-image: url(../images/two.jpg);
     background-size: cover;
@@ -859,7 +860,7 @@ header {
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
     -ms-animation-delay: 18s;
-    animation-delay: 18s; }
+    animation-delay: 36s; }
   header .modernizr-slideshow li:nth-child(5) .background {
     background-image: url(../images/threeblack.jpg);
     background-size: cover;
@@ -868,7 +869,7 @@ header {
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
     -ms-animation-delay: 24s;
-    animation-delay: 24s; }
+    animation-delay: 48s; }
   header .modernizr-slideshow li:nth-child(6) .background {
     background: url(../images/three.jpg);
     background-size: cover;
@@ -877,7 +878,7 @@ header {
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
-    animation-delay: 30s; }
+    animation-delay: 60s; }
   header .modernizr-slideshow li:nth-child(7) .background {
     background-image: url(../images/oneblack.jpg);
     background-size: cover;
@@ -886,7 +887,7 @@ header {
     -moz-animation-delay: 36s;
     -o-animation-delay: 36s;
     -ms-animation-delay: 36s;
-    animation-delay: 36s; }
+    animation-delay: 72s; }
     header .modernizr-slideshow li:nth-child(7) .background h1 {
       color: #53eae3; }
   header .modernizr-slideshow li:nth-child(2) div {
@@ -894,7 +895,7 @@ header {
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
     -ms-animation-delay: 6s;
-    animation-delay: 6s; }
+    animation-delay: 12s; }
     header .modernizr-slideshow li:nth-child(2) div h1 {
       color: white; }
     header .modernizr-slideshow li:nth-child(2) div p {
@@ -906,7 +907,7 @@ header {
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
     -ms-animation-delay: 12s;
-    animation-delay: 12s; }
+    animation-delay: 24s; }
     header .modernizr-slideshow li:nth-child(3) div p {
       color: #fff;
       text-align: center;
@@ -916,7 +917,7 @@ header {
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
     -ms-animation-delay: 18s;
-    animation-delay: 18s; }
+    animation-delay: 36s; }
     header .modernizr-slideshow li:nth-child(4) div h1 {
       color: white; }
     header .modernizr-slideshow li:nth-child(4) div p {
@@ -927,13 +928,13 @@ header {
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
     -ms-animation-delay: 24s;
-    animation-delay: 24s; }
+    animation-delay: 48s; }
   header .modernizr-slideshow li:nth-child(6) div {
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
-    animation-delay: 30s; }
+    animation-delay: 60s; }
     header .modernizr-slideshow li:nth-child(6) div h1 {
       color: white; }
     header .modernizr-slideshow li:nth-child(6) div p {
@@ -943,7 +944,7 @@ header {
     -moz-animation-delay: 36s;
     -o-animation-delay: 36s;
     -ms-animation-delay: 36s;
-    animation-delay: 36s; }
+    animation-delay: 72s; }
     header .modernizr-slideshow li:nth-child(7) div h1 {
       color: #53eae3; }
     header .modernizr-slideshow li:nth-child(7) div p {
@@ -1340,14 +1341,14 @@ footer {
 
   h1 {
     font-size: 100px;
-    padding-bottom: 60px; }
+    padding-bottom: 40px; }
 
   header .modernizr-slideshow li:nth-child(5) .background {
     background-position: center -300px; }
   header .modernizr-slideshow li:nth-child(6) .background {
     background-position: center -300px; }
   header .modernizr-slideshow li .background {
-    height: 530px; }
+    height: 480px; }
   header .modernizr-slideshow li div {
     top: 250px; }
     header .modernizr-slideshow li div p {
@@ -1425,7 +1426,7 @@ footer {
   main {
     width: 100%;
     margin: 0 auto;
-    top: 540px; }
+    top: 490px; }
     main h2 {
       padding-left: 30px;
       font-size: 39px;
@@ -1453,7 +1454,7 @@ footer {
       main .about-right h2 {
         padding-top: 18px; }
       main .about-right p {
-        min-width: 450px;
+        max-width: 590px;
         padding-bottom: 27px; }
     main .featured-artist1 {
       clear: both;
@@ -1492,5 +1493,54 @@ footer {
 
   footer {
     top: 210px; } }
+@media screen and (min-width: 1394px) {
+  h1 {
+    font-size: 140px; }
+
+  header .modernizr-slideshow li:nth-child(1) .background {
+    background-position: center -300px; }
+  header .modernizr-slideshow li:nth-child(2) .background {
+    background-position: center -300px; }
+  header .modernizr-slideshow li:nth-child(3) .background {
+    background-position: center -200px; }
+  header .modernizr-slideshow li:nth-child(4) .background {
+    background-position: center -200px; }
+  header .modernizr-slideshow li:nth-child(5) .background {
+    background-position: center -400px; }
+  header .modernizr-slideshow li:nth-child(6) .background {
+    background-position: center -400px; }
+  header .modernizr-slideshow li:nth-child(7) .background {
+    background-position: center -300px; }
+  header .modernizr-slideshow li div {
+    top: 280px; }
+    header .modernizr-slideshow li div p {
+      width: 100%;
+      line-height: 28px;
+      font-size: 30px;
+      max-width: 1200px; }
+  header .modernizr-slideshow li .background {
+    height: 630px; }
+  header p {
+    max-width: 1100px; }
+
+  main {
+    top: 640px;
+    padding: 0 10%;
+    box-sizing: border-box; }
+    main h2 {
+      font-size: 45px; }
+    main p {
+      font-size: 18px;
+      width: 95%;
+      max-width: 600px;
+      line-height: 22px; }
+    main .about-left p {
+      max-width: 650px; }
+    main .about-left .featured-artist2 {
+      float: left; }
+    main .about-right p {
+      max-width: 750px; }
+    main .about-right .event2 {
+      float: left; } }
 
 /*# sourceMappingURL=style.css.map */

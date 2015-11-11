@@ -381,7 +381,7 @@ footer {
 
 	h1 {
 		font-size: 100px;
-	  	padding-bottom: 60px;
+	  	padding-bottom: 40px;
 	}
 
 	header {
@@ -396,7 +396,7 @@ footer {
 		}
 
 		.modernizr-slideshow li .background { 
-	  		height: 530px;
+	  		height: 480px;
 	  	}
 
 	  	.modernizr-slideshow li div { 
@@ -427,7 +427,6 @@ footer {
 			font-size: 20px;
 		}
 
-		.header {}
 
 		.nav-large {
 			display: inline-block;
@@ -484,7 +483,7 @@ footer {
 	main {
 		width: 100%;
 		margin: 0 auto;
-	 	top: 540px;
+	 	top: 490px;
 
 	 	h2 {
 	 		padding-left: 30px;
@@ -534,7 +533,7 @@ footer {
 
 	 		p {
 	 			// position: absolute;
-	 			min-width: 450px;
+	 			max-width: 590px;
 	 			padding-bottom: 27px;
 	 		}
 	 		// padding-top: 20px;
@@ -599,15 +598,98 @@ footer {
 	}
 }
 
-// #menu-button {
-// 	height: 50px;
-// 	width: 50px;
-// 	// background-color: #000;
-// 	z-index: 5;
-// 	display: block;
-// }
+@media screen and (min-width: 1394px) {
 
-// .nav-small {
-// 	z-index: 5;
-// 	position: absolute;
-// }
+	h1 {
+		font-size: 140px;
+	}
+
+	header {
+
+		.modernizr-slideshow li:nth-child(1) .background { 
+			background-position: center -300px;
+		}
+
+		.modernizr-slideshow li:nth-child(2) .background { 
+			background-position: center -300px;
+		}
+
+		.modernizr-slideshow li:nth-child(3) .background { 
+			background-position: center -200px;
+		}
+
+		.modernizr-slideshow li:nth-child(4) .background { 
+			background-position: center -200px;
+		}
+
+		.modernizr-slideshow li:nth-child(5) .background { 
+			background-position: center -400px;
+		}
+
+		.modernizr-slideshow li:nth-child(6) .background { 
+			background-position: center -400px;
+		}
+
+		.modernizr-slideshow li:nth-child(7) .background { 
+			background-position: center -300px;
+		}
+
+		.modernizr-slideshow li div { 
+	 		 top: 280px;
+
+	 		 p {
+	 		 	// padding-top: 40px;
+	 		 	width: 100%;
+	 		 	line-height: 28px;
+	 		 	font-size: 30px;
+	 		 	max-width: 1200px;
+	 		 }
+	 	}
+
+		.modernizr-slideshow li .background { 
+	  		height: 630px;
+	  	}
+
+	  	p {
+	  		max-width: 1100px;
+	  	}
+	}
+
+	main {
+		top: 640px;
+		padding: 0 10%;
+		box-sizing: border-box;
+
+		h2 {
+			font-size: 45px;
+		}
+
+		p {
+			font-size: 18px;
+			width: 95%;
+			max-width: 600px;
+			line-height: 22px;
+
+		}
+	
+		.about-left {
+			p {
+				max-width: 650px;
+
+			}
+			// padding: 0 5%;
+			.featured-artist2 {
+				float: left;
+			}
+		}
+
+		.about-right {
+			p {
+				max-width: 750px;
+			}
+			.event2 {
+				float: left;
+			}
+		}
+	}
+}
