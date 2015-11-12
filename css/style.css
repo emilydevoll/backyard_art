@@ -1495,7 +1495,8 @@ footer {
     top: 210px; } }
 @media screen and (min-width: 1394px) {
   h1 {
-    font-size: 140px; }
+    font-size: 110px;
+    padding-bottom: 60px; }
 
   header .modernizr-slideshow li:nth-child(1) .background {
     background-position: center -300px; }
@@ -1506,17 +1507,17 @@ footer {
   header .modernizr-slideshow li:nth-child(4) .background {
     background-position: center -200px; }
   header .modernizr-slideshow li:nth-child(5) .background {
-    background-position: center -400px; }
+    background-position: center -800px; }
   header .modernizr-slideshow li:nth-child(6) .background {
-    background-position: center -400px; }
+    background-position: center -800px; }
   header .modernizr-slideshow li:nth-child(7) .background {
     background-position: center -300px; }
   header .modernizr-slideshow li div {
-    top: 280px; }
+    top: 300px; }
     header .modernizr-slideshow li div p {
       width: 100%;
       line-height: 28px;
-      font-size: 30px;
+      font-size: 28px;
       max-width: 1200px; }
   header .modernizr-slideshow li .background {
     height: 630px; }
@@ -1536,11 +1537,21 @@ footer {
       line-height: 22px; }
     main .about-left p {
       max-width: 650px; }
+    main .about-left .featured-artist1 {
+      height: 160px; }
     main .about-left .featured-artist2 {
-      float: left; }
+      float: left;
+      height: 160px; }
     main .about-right p {
       max-width: 750px; }
+    main .about-right .event1 {
+      height: 160px; }
+      main .about-right .event1 h3 {
+        padding-bottom: 80px; }
     main .about-right .event2 {
-      float: left; } }
+      float: left;
+      height: 160px; }
+      main .about-right .event2 h3 {
+        padding-bottom: 80px; } }
 
 /*# sourceMappingURL=style.css.map */

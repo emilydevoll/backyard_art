@@ -601,7 +601,8 @@ footer {
 @media screen and (min-width: 1394px) {
 
 	h1 {
-		font-size: 140px;
+		font-size: 110px;
+		padding-bottom: 60px;
 	}
 
 	header {
@@ -623,11 +624,11 @@ footer {
 		}
 
 		.modernizr-slideshow li:nth-child(5) .background { 
-			background-position: center -400px;
+			background-position: center -800px;
 		}
 
 		.modernizr-slideshow li:nth-child(6) .background { 
-			background-position: center -400px;
+			background-position: center -800px;
 		}
 
 		.modernizr-slideshow li:nth-child(7) .background { 
@@ -635,13 +636,13 @@ footer {
 		}
 
 		.modernizr-slideshow li div { 
-	 		 top: 280px;
+	 		 top: 300px;
 
 	 		 p {
 	 		 	// padding-top: 40px;
 	 		 	width: 100%;
 	 		 	line-height: 28px;
-	 		 	font-size: 30px;
+	 		 	font-size: 28px;
 	 		 	max-width: 1200px;
 	 		 }
 	 	}
@@ -677,9 +678,14 @@ footer {
 				max-width: 650px;
 
 			}
+
+			.featured-artist1 {
+				height: 160px;
+			}
 			// padding: 0 5%;
 			.featured-artist2 {
 				float: left;
+				height: 160px
 			}
 		}
 
@@ -687,8 +693,21 @@ footer {
 			p {
 				max-width: 750px;
 			}
+
+			.event1 {
+				height: 160px;
+
+				h3 {
+					padding-bottom: 80px;
+				}
+			}
 			.event2 {
 				float: left;
+				height: 160px;
+
+				h3 {
+					padding-bottom: 80px;
+				}
 			}
 		}
 	}
