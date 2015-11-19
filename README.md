@@ -1,15 +1,15 @@
 # Backyard Art
 As an artist that loves what I do and wants to share, collaborate, and sell my art as well as be informed of what all art events and opportunities are occurring around me, I wanted to create a website for others like me. That's where Backyard Art comes in. It's a site made by art lovers, for art lovers. Built on “Keeping Austin Local”, everything is geared towards buying, selling, and sharing art from your own backyard.
 
-## The Problem
+## Problem
 Living in a city that whose atmosphere is driven by a passion for music and the arts, you would think there would be an abundance of websites that are geared towards helping promote, sell, share, and inform its users of related events 
 occurring in our beloved Austin, TX. When it comes to music, yes, but online resources are seriously lacking for artists. Austin is huge on keeping everything local, but unless you know how to set your search settings on Etsy to local or are an avid art festival goer, there currently isn't anything available to allow art enthusiasts and collectors to buy art from local artists in town. Want to know what art events are going on this week? Or perhaps you're an artist wanting to know the deadlines for all of the art festivals coming up. Either way, have fun googling for every event individually to know what's going on.
 
-## The Solution 
+## Solution 
 What I've created is a website application that allows Austin artists to showcase their art in order to sell to local art collectors/enthusiasts, as well as to  share, gain inspiration, and reach out to other local artists that are interested in collaborating or learning more. The web app also contains an all inclusive events calendar that consists of everything anyone would need to know when it comes to Austin's art exhibits, festivals, gallery openings, and social
 events such as art meetups.
 
-## The Research
+## Research
 
 ***SWOT Analysis***  
    I broke down all of the strengths, weaknesses, opportunities, and threats that my site could potentially have. I really wanted to focus not only on current aspects of the site, but more importantly on future possibilities and features it could have if it were to continue beyond being just my final project.
@@ -29,10 +29,8 @@ events such as art meetups.
 ***Calendar***  
    Another key component in my design research was finding a calendar tool to use on my event's page. Knowing that it was one of the main features on my site, it was crucial for it to allow a lot of content to be inputted, display that content in an aesthetically pleasing way, all the while have high functionality and run smoothly. I decided to go with UpTo for it's responsive design and easy usage and site maneuverability through being able to be embedded directly into my HTML code as an iframe. 
 
-***The Design***  
+## The Design  
    For the initial design process, I drew up sketches of each page for small, medium, and large screen sizes and then I implemented them into wireframes using Adobe Illustrator.
-
-![styletiles](style_tiles/all_style_tiles.jpg)
 
 ***Theme***  
    The design direction I decided to go in was derived from my "Pop" style guide. It's theme was centered around the idea of how the world is seen in black and white and art is the splash (or pop) of color that brings it to life. 
