@@ -1346,9 +1346,9 @@ footer {
   header .modernizr-slideshow li:nth-child(6) .background {
     background-position: center -300px; }
   header .modernizr-slideshow li .background {
-    height: 480px; }
+    height: 580px; }
   header .modernizr-slideshow li div {
-    top: 250px; }
+    top: 280px; }
     header .modernizr-slideshow li div p {
       width: 70%;
       line-height: 25px;
@@ -1424,7 +1424,7 @@ footer {
   main {
     width: 100%;
     margin: 0 auto;
-    top: 490px; }
+    top: 590px; }
     main h2 {
       padding-left: 30px;
       font-size: 39px;
