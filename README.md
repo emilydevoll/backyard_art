@@ -52,7 +52,8 @@ Oswald Regular is a bold face sans-serif that was selected for the header/primar
 #### Logo and Icons
 The part I enjoyed the most of our assignment was having to create 3-5 custom icons for our website using Adobe Illustrator. I decided to design a logo for my site, as well as icons for three reoccurring meetups on my events calendar.
 
-![logo](images/logo3.png)
+![logo](icons/logo-small.png)
+
 The logo was created to symbolize the art factor through an artist's beret, and represent Austin by using a cut out of the shape of Texas and a mustache since facial hair is a very common feature amongst males living here.
 
 ![lifedrawing](icons/lifedrawing-icon.png) ![sketchbomb](icons/sketch-bomb-icon.png) ![artattacksaustin](icons/art-attacks-austin-icon.png)
