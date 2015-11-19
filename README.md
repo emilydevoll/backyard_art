@@ -11,50 +11,51 @@ events such as art meetups.
 
 ## The Research
 
-#### SWOT Analysis
-I broke down all of the strengths, weaknesses, opportunities, and threats that my site could potentially have. I really wanted to focus not only on current aspects of the site, but more importantly on future possibilities and features it could have if it were to continue beyond being just my final project.
+***SWOT Analysis***  
+   I broke down all of the strengths, weaknesses, opportunities, and threats that my site could potentially have. I really wanted to focus not only on current aspects of the site, but more importantly on future possibilities and features it could have if it were to continue beyond being just my final project.
 
-#### User Personas
-The user personas were created to help give me better sense of the target audience I was making my site for and the possible characteristics and interests that they would have. I really wanted to hone in on three main audiences: people interested in the site for buying art, artists that are recent Austin transplants and are wanting to get involved in the art community, and artists that are struggling to get their art seen and sold.
+***User Personas***  
+   The user personas were created to help give me better sense of the target audience I was making my site for and the possible characteristics and interests that they would have. I really wanted to hone in on three main audiences: people interested in the site for buying art, artists that are recent Austin transplants and are wanting to get involved in the art community, and artists that are struggling to get their art seen and sold.
 
-#### User Interviews
-When conducting user interviews, I focused my attention on both potential artist members and those who would be interested in buying artwork from the site. Through their responses I was able to optimize my page layouts and search options to better accommodate their needs. 
+***User Interviews***  
+   When conducting user interviews, I focused my attention on both potential artist members and those who would be interested in buying artwork from the site. Through their responses I was able to optimize my page layouts and search options to better accommodate their needs. 
 
-#### Word List
-I decided to create a word list as part of my research in order to assist in creating my design direction. Through compiling various relating words into categories (people, places, things, adjectives, and colors) I was able to group together like words to form potential design themes.
+***Word List***  
+   I decided to create a word list as part of my research in order to assist in creating my design direction. Through compiling various relating words into categories (people, places, things, adjectives, and colors) I was able to group together like words to form potential design themes.
 
-#### Content Structure
-The beginnings of my design research consisted of looking into what related websites are currently out there and how they went about sorting and displaying a lot of images/art. My findings were then implemented into how I designed the artist directory page and the individual artist's page.
+***Content Structure***  
+   The beginnings of my design research consisted of looking into what related websites are currently out there and how they went about sorting and displaying a lot of images/art. My findings were then implemented into how I designed the artist directory page and the individual artist's page.
 
-#### Calendar
-Another key component in my design research was finding a calendar tool to use on my event's page. Knowing that it was one of the main features on my site, it was crucial for it to allow a lot of content to be inputted, display that content in an aesthetically pleasing way, all the while have high functionality and run smoothly. I decided to go with UpTo for it's responsive design and easy usage and site maneuverability through being able to be embedded directly into my HTML code as an iframe. 
+***Calendar***  
+   Another key component in my design research was finding a calendar tool to use on my event's page. Knowing that it was one of the main features on my site, it was crucial for it to allow a lot of content to be inputted, display that content in an aesthetically pleasing way, all the while have high functionality and run smoothly. I decided to go with UpTo for it's responsive design and easy usage and site maneuverability through being able to be embedded directly into my HTML code as an iframe. 
 
-## The Design
-For the initial design process, I drew up sketches of each page for small, medium, and large screen sizes and then I implemented them into wireframes using Adobe Illustrator.
+***The Design***  
+   For the initial design process, I drew up sketches of each page for small, medium, and large screen sizes and then I implemented them into wireframes using Adobe Illustrator.
 
 ![styletiles](style_tiles/all_style_tiles.jpg)
 
-#### Theme
-The design direction I decided to go in was derived from my "Pop" style guide. It's theme was centered around the idea of how the world is seen in black and white and art is the splash (or pop) of color that brings it to life. 
+***Theme***  
+   The design direction I decided to go in was derived from my "Pop" style guide. It's theme was centered around the idea of how the world is seen in black and white and art is the splash (or pop) of color that brings it to life. 
 
-#### Color Scheme
-One of the challenges I faced when creating my color palette was that I wanted it to be reflective of my "pop of color vs. black and white" theme, yet not detract any attention from the most important elements on the page: the art. I decided on using only one color, a vibrant blue/turquoise that I pulled from the background image on the homepage, and used it sparingly on only the most important text or as an accent color in order to draw just enough attention.
+***Color Scheme***  
+   One of the challenges I faced when creating my color palette was that I wanted it to be reflective of my "pop of color vs. black and white" theme, yet not detract any attention from the most important elements on the page: the art. I decided on using only one color, a vibrant blue/turquoise that I pulled from the background image on the homepage, and used it sparingly on only the most important text or as an accent color in order to draw just enough attention.
 
-#### Page Headers and Home Page Background Images
-The homepage background images are from photographer Louis Lander-Deacon (known for the Imagine Dragons' _Head Me_ album cover). They were chosen not only for their beauty, but also for their relevance to the website name and the overall design theme for the site: 
+***Page Headers and Home Page Background Images***  
+   The homepage background images are from photographer Louis Lander-Deacon (known for the Imagine Dragons' _Head Me_ album cover). They were chosen not only for their beauty, but also for their relevance to the website name and the overall design theme for the site: 
 * Through the use of animation I switched between black and white to colored versions of various photos from his collection to represent the "pop of color vs. black and white" theme.
 * The photos are of art occurring outdoors like the name of the site infers: Backyard Art.
 * The bright and vibrant colors in the photo are against an otherwise dull backdrop and therefore "pop". 
 
-#### Typography
-Oswald Regular is a bold face sans-serif that was selected for the header/primary font due to it's modern appearance and eligibility on top of images when used in all uppercase. I paired it with Poppins (Light weight for body text, Medium weight for subheaders), another modern sans-serif whose more rounded edges contrast well against Oswald's more angular features. 
+***Typography***  
+   Oswald Regular is a bold face sans-serif that was selected for the header/primary font due to it's modern appearance and eligibility on top of images when used in all uppercase. I paired it with Poppins (Light weight for body text, Medium weight for subheaders), another modern sans-serif whose more rounded edges contrast well against Oswald's more angular features. 
 
-#### Logo and Icons
-The part I enjoyed the most of our assignment was having to create 3-5 custom icons for our website using Adobe Illustrator. I decided to design a logo for my site, as well as icons for three reoccurring meetups on my events calendar.
+***Logo and Icons***  
+   The part I enjoyed the most of our assignment was having to create 3-5 custom icons for our website using Adobe Illustrator. I decided to design a logo for my site, as well as icons for three reoccurring meetups on my events calendar.
 
 ![logo](icons/logo-small.png)
 
 The logo was created to symbolize the art factor through an artist's beret, and represent Austin by using a cut out of the shape of Texas and a mustache since facial hair is a very common feature amongst males living here.
 
-![lifedrawing](icons/lifedrawing-icon.png) ![sketchbomb](icons/sketch-bomb-icon.png) ![artattacksaustin](icons/art-attacks-austin-icon.png)
+![lifedrawing](icons/lifedrawing-small.png) ![sketchbomb](icons/sketch-bomb-small.png) ![artattacksaustin](icons/art-attacks-austin-small.png)
+
 For the Lifedrawing meetup I decided to reenact an actual life drawing by creating a simple sketch/outline of a female figure. With sketch bomb I took their name literally by using pencils as if they were TNT. Being that I attend the Art Attacks Austin meetup, I tried to encompass their fun and quirky audience through making a colorful warrior unicorn whose horn is "attacking" Austin.
